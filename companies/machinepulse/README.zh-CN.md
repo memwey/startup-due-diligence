@@ -63,7 +63,9 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 - **做什么** —— 推荐餐厅、酒吧、画廊、现场音乐和活动；从对话中学习偏好；可以加进 iMessage 群聊帮一群人收敛出方案（[FAQ](https://app.karpo.ai/faqs)）。
 - **覆盖城市** —— 「最了解纽约、旧金山和伦敦」；也覆盖迈阿密、洛杉矶和新加坡（[关于页面](https://app.karpo.ai/about-us)）。
 - **预订** —— 通过 Ticketmaster、Viator、Expedia 和 Klook 完成集成预订（[2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)）。
-- **价格** —— 免费；FAQ 对是否完全免费的回答是「Yes」。没有任何付费档位、订阅或应用内购买的说明。
+- **内容栏目** —— 一个每周更新的栏目「Karpo's Finds」，公司自己的对比页面描述为 1,000–1,500 字、带引用出处、锚定到具体街区的稿件，覆盖 12 个生活方式标签（[对比页面](https://app.karpo.ai/scenarios/karpo-vs-gemini-best-ai-city-assistant-nyc-2026)）。这就是站点 `/explore/` 和 `/city-guides/` 板块背后的内容。
+- **价格** —— 免费；FAQ 对是否完全免费的回答是「Yes」，公司对比页面写「Karpo is $0/year」，且「完整产品 —— 无限量 iMessage 对话、Karpo's Finds 栏目访问、主动推荐 —— 都是免费的」。没有任何付费档位、订阅或应用内购买的说明。
+- **形态** —— 同一页面写道「Karpo does not have its own app icon. It is an iMessage extension.」（Karpo 没有自己的应用图标，它是一个 iMessage 扩展。）
 
 ### World2Agent（W2A）
 
@@ -275,6 +277,7 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 - 没有找到主流科技媒体的报道 —— 唯一找到的新闻是 2026-07-28 的一篇稿件，经 openPR 分发并被一批聚合站点转载，此外只有一篇关于 World2Agent 的中文博客。
 - GitHub 组织没有公开成员，因此无法据此识别具体贡献者。
 - Leah Wang 和 Nanqun Chen 的主页都没有填写教育经历，也没有任何一份主页写明公司的成立时间。
+- **没有找到任何关于具名创始人的独立报道。**2026-07-29 以中英文检索「Leah Wang」+ MachinePulse、「Nanqun Chen」/ 陈南群 + 阶跃星辰 及 + MachinePulse、「Nanqun Chen」+ Silot/Kaya、Heychat + 小贝文化科技，以及 MachinePulse/Karpo + 创始人 / founder / interview / podcast，都没有返回关于他们任何一人的专访、人物报道或新闻。2026 年关于字节系创业做 AI 的中文盘点文章里也没有提到 MachinePulse。所有新闻材料中唯一被引用的员工是增长负责人，出自 2026-07-28 那一篇稿件。
 
 ### 不同来源之间的不一致
 
@@ -283,7 +286,7 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 - **Nanqun Chen 的当前任职：**他的[主页](https://www.linkedin.com/in/nanqunchen/details/experience/)把阶跃星辰 Lead Product Manager 列为 2024 年 4 月至今，与 2025 年 12 月至今的 MachinePulse 联合创始人并列（访问于 2026-07-29）。是否只是某一条没有结束标注，从主页上无法判断。
 - **成立时间：**三位管理层主页把各自的 MachinePulse 职位起点标在 2025 年 12 月和 2026 年 1 月，GitHub 组织创建于 2025-11-11；没有任何一处说明公司本身何时成立或注册。
 - **国别与实际运营重心：**一条[第三方社交帖](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay)把 MachinePulse 说成「US-based」；法律实体是新加坡 Pte. Ltd.，[GitHub 组织](https://github.com/machinepulse-ai)标注新加坡；而 20 个在招岗位中有 18 个定位在上海（[jobs API](https://join.machinepulse.ai/api/jobs)）。三个来源指向三个国家 —— 单独看都不算错，但只有招聘数据能说明活儿实际在哪里干。
-- **Karpo 的形态：**[2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)称 Karpo「available on App and iMessage」；[FAQ](https://app.karpo.ai/faqs) 和[工作方式](https://app.karpo.ai/how-it-works)页面只描述了 iMessage 路径，也没有找到 App Store 条目。一个涵盖 Swift、App Store 提审和 TestFlight 分发的 [iOS 开发实习岗位](https://join.machinepulse.ai/api/jobs)表明原生客户端正在开发中 —— 这与「App 尚未发布」一致，而不是说明哪一边的页面写错了。
+- **Karpo 的形态：**[2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)称 Karpo「available on App and iMessage」，但公司自己的[对比页面](https://app.karpo.ai/scenarios/karpo-vs-gemini-best-ai-city-assistant-nyc-2026)写的正相反 ——「Karpo does not have its own app icon. It is an iMessage extension」—— [FAQ](https://app.karpo.ai/faqs) 和[工作方式](https://app.karpo.ai/how-it-works)页面也只描述了 iMessage 路径，且找不到 App Store 条目。一个涵盖 Swift、App Store 提审和 TestFlight 分发的 [iOS 开发实习岗位](https://join.machinepulse.ai/api/jobs)表明原生客户端正在开发中。以公司自身产品页面的分量看，目前并没有 App，新闻稿的说法夸大了。
 - **Karpo 的能力：**[工作方式页面](https://app.karpo.ai/how-it-works)用的是设想式措辞来描述订票、订行程和「life admin」，而[新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)则把四家具名合作方的集成预订说成已经上线。
 
 ### 其他
