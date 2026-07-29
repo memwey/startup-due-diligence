@@ -7,9 +7,12 @@
 
 | 公司 | 领域 | 调研 |
 |---|---|---|
+| AIsa | 面向 AI agent 的资源与支付网关 | [English](aisa/) · [简体中文](aisa/README.zh-CN.md) |
+| Flexport | 数字货运代理与报关 | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
 | NETSTARS | 支付 | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Tensor Energy | 可再生能源与储能运营 | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
+| Verdent | 智能体编程工具 | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
 | Waka | 跨境贸易结算基础设施 | [English](waka/) · [简体中文](waka/README.zh-CN.md) |
 
 每份公司页面包括：

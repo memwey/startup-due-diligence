@@ -240,7 +240,17 @@ companies/
 | 地区 | 平台 |
 |---|---|
 | 日本 | [PR TIMES](https://prtimes.jp)、[@Press](https://www.atpress.ne.jp)、[Kyodo News PR Wire](https://kyodonewsprwire.jp)、[Dream News](https://www.dreamnews.jp)、[ValuePress](https://www.value-press.com) |
+| 中国 | [美通社](https://www.prnasia.com)；但实际操作中，初创公司的消息多以首发形式给科技媒体，或发布在公司微信公众号，而不是走通稿平台 |
 | 全球 | Business Wire、PR Newswire、GlobeNewswire、EIN Presswire |
+
+中国公司往往根本没有新闻索引。融资、产品和合作消息通常先以首发形式出现在 [36氪](https://36kr.com)、[投资界](https://pe.pedaily.cn)或 [IT桔子](https://www.itjuzi.com)，随后发布在公司微信公众号——后者没有公开存档，也无法从开放网络检索。可以把首发文章当作新闻稿的等价物，因为它通常基于公司自己提供的材料，但署名应归于该媒体并标注其发布日期；若公司自身没有任何公开发布，也要写明这一点。
+
+**检索公众号。** [搜狗微信搜索](https://weixin.sogou.com)是唯一的通用微信文章索引：文章用 `weixin.sogou.com/weixin?type=2&query=…`，公众号用 `type=1`。结果页返回标题、摘要、发布公众号和发布日期，无需登录即可访问。两个限制，均于 2026-07-29 实测确认：
+
+- 索引不完整。已知存在的文章——包括某公司全部中文报道背后的两篇原文——可能根本搜不到。搜不到不等于没有发布过。
+- 结果链接是 `weixin.sogou.com/link?url=…` 形式的跳转，背后有反爬拦截，链接会过期，通常也无法自动解析到永久地址 `mp.weixin.qq.com/s/…`。
+
+它适合用来发现线索：哪个公众号在什么日期发了什么标题，以及其他账号如何描述这家公司；引用之前仍需拿到 `mp.weixin.qq.com` 的永久链接。检索时要用公司中文名和曾用名，而不只是英文品牌——未公开的中文实体名往往最先出现在这类二手文章里。仅有摘要属于未经确认的线索，不能当作来源。
 
 ### 4. 招聘信息
 
@@ -286,14 +296,20 @@ companies/
 | 类别 | 网站 |
 |---|---|
 | 日本初创公司数据库 | [INITIAL / Speeda Startup Info](https://initial.inc)、[STARTUP DB](https://startup-db.com)、[Kepple](https://kepple.co.jp) |
+| 中国初创公司数据库 | [IT桔子](https://www.itjuzi.com)、[投资界](https://pe.pedaily.cn)、[鲸准](https://www.jingdata.com) |
 | 全球初创公司数据库 | Crunchbase、PitchBook、Tracxn、CB Insights、Preqin |
-| 初创公司媒体 | [BRIDGE](https://thebridge.jp)、Forbes JAPAN、TechCrunch、Nikkei xTECH |
+| 日本初创公司媒体 | [BRIDGE](https://thebridge.jp)、Forbes JAPAN、TechCrunch、Nikkei xTECH |
+| 中国初创公司媒体 | [36氪](https://36kr.com)、[虎嗅](https://www.huxiu.com)、[钛媒体](https://www.tmtpost.com)、[晚点 LatePost](https://www.latepost.com)、[PingWest 品玩](https://www.pingwest.com)；AI 方向另有[量子位](https://www.qbitai.com)和[机器之心](https://www.jiqizhixin.com) |
 | 政府和项目页面 | [J-Startup](https://www.j-startup.go.jp)、JETRO、METI 项目公告、地方加速器网站 |
-| 企业登记 | [国税庁法人番号公表サイト](https://www.houjin-bangou.nta.go.jp)，用于查询法定名称、法人编号、注册地址及其变更历史 |
+| 企业登记 | [国税庁法人番号公表サイト](https://www.houjin-bangou.nta.go.jp)（日本），用于查询法定名称、法人编号、注册地址及其变更历史；[国家企业信用信息公示系统](https://www.gsxt.gov.cn)（中国），用于查询注册信息、注册资本、法定代表人及变更记录，[天眼查](https://www.tianyancha.com)和[企查查](https://www.qcc.com)是同一批工商数据的可检索镜像 |
 | 监管文件 | EDINET（日本）、SEC EDGAR（美国），在合作伙伴或收购方为上市公司时尤其有用 |
 | 行业媒体 | 对应领域的专业刊物；它们会报道全国性媒体遗漏的产品发布 |
 
 数据库适合发现线索，例如此前遗漏的融资或投资者名称，但写入页面之前，应使用一手来源确认每个数字。
+
+**引用原文，不要引用转载。** 综合门户和内容平台——中文的新浪、网易、搜狐、腾讯新闻、百家号、今日头条、知乎专栏，日文的 Infoseek News 及转载 PR TIMES 通稿的地方报纸网站——多数是在转发他人内容，通常还带有"来源"或"転載"字样指明出处。应沿着这条线索找到并引用真正的出处：垂直行业媒体、通稿原文，或公司自己的发布。只有原文确实已经消失时才可以引用门户转载，并且要标明这是对某个具名来源的转载。同时，优先选择覆盖该公司所在行业的垂直媒体，而不是泛科技或泛财经媒体——前者会保留后者删掉的业务细节。
+
+中文报道另有两处需要注意。其一，融资金额常以区间而非具体数字给出——数千万元、近亿元、数亿元——币种也经常省略；应照抄原文表述，只有来源明确写出币种时才标注，不要把区间换算成看似精确的数字。其二，大量报道源自公司自己提供的材料，因此多家媒体给出同一数字只算一个来源，不构成相互印证；确认之前应回溯到最早那篇首发文章。
 
 ### 8. 创始人和公司社交媒体
 
@@ -327,6 +343,7 @@ companies/
 - [ ] 来源冲突记录在 `Notes`，没有被静默处理
 - [ ] 缺失结论注明搜索日期和所查阅的公开来源范围
 - [ ] 来源优先级与主张类型匹配
+- [ ] 只要原文仍然存在，引用的就是原文而不是门户转载
 - [ ] 无日期和持续变化来源注明 `Accessed`，但不据此暗示信息仍是当前状态
 - [ ] 创始人或公司社交媒体保留归属及计划／当前状态
 - [ ] 页面按重要性筛选，没有照录所有公开披露

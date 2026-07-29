@@ -247,7 +247,17 @@ Common distribution services:
 | Region | Services |
 |---|---|
 | Japan | [PR TIMES](https://prtimes.jp), [@Press](https://www.atpress.ne.jp), [Kyodo News PR Wire](https://kyodonewsprwire.jp), [Dream News](https://www.dreamnews.jp), [ValuePress](https://www.value-press.com) |
+| China | [美通社 PR Newswire China](https://www.prnasia.com); in practice most startup news is placed as an exclusive (首发) with a tech outlet, or published on the company's WeChat official account, rather than sent over a wire |
 | Global | Business Wire, PR Newswire, GlobeNewswire, EIN Presswire |
+
+Chinese companies often have no press index at all. Funding, product and partnership announcements typically appear first as a 首发 article on [36氪](https://36kr.com), [投资界](https://pe.pedaily.cn) or [IT桔子](https://www.itjuzi.com), and then on the company's WeChat official account, which has no public archive and cannot be searched from the open web. Treat the 首发 article as the equivalent of a press release — it is usually written from the company's own material — but attribute it to the outlet and its publication date, and say so when the company itself published nothing.
+
+**Searching WeChat.** [Sogou WeChat search](https://weixin.sogou.com) is the only general-purpose index of WeChat articles: `weixin.sogou.com/weixin?type=2&query=…` for articles, `type=1` for accounts. The results page returns titles, snippets, the publishing account and a publication date, and is reachable without a login. Two limits, both confirmed on 2026-07-29:
+
+- Its index is partial. Articles that are known to exist — including the two original pieces behind a company's Chinese coverage — may simply not appear. A blank result is not evidence that nothing was published.
+- The result links are `weixin.sogou.com/link?url=…` redirects behind an anti-bot gate; they expire and often will not resolve to the canonical `mp.weixin.qq.com/s/…` article automatically.
+
+Use it for discovery — which account published what, under which title, on which date, and what other accounts say about the company — and then obtain the permanent `mp.weixin.qq.com` link before citing. Search the company's Chinese name and its former names, not only the English brand; second-hand articles are often where an unlisted Chinese entity name first surfaces. A snippet alone is an unconfirmed lead, not a source.
 
 ### 4. Job postings
 
@@ -293,14 +303,20 @@ Build the table from the company's own release for each round, and use the round
 | Category | Sites |
 |---|---|
 | Startup databases (Japan) | [INITIAL / Speeda Startup Info](https://initial.inc), [STARTUP DB](https://startup-db.com), [Kepple](https://kepple.co.jp) |
+| Startup databases (China) | [IT桔子](https://www.itjuzi.com), [投资界](https://pe.pedaily.cn), [鲸准](https://www.jingdata.com) |
 | Startup databases (global) | Crunchbase, PitchBook, Tracxn, CB Insights, Preqin |
-| Startup media | [BRIDGE](https://thebridge.jp), Forbes JAPAN, TechCrunch, Nikkei xTECH |
+| Startup media (Japan) | [BRIDGE](https://thebridge.jp), Forbes JAPAN, TechCrunch, Nikkei xTECH |
+| Startup media (China) | [36氪](https://36kr.com), [虎嗅](https://www.huxiu.com), [钛媒体](https://www.tmtpost.com), [晚点 LatePost](https://www.latepost.com), [PingWest 品玩](https://www.pingwest.com); for AI specifically [量子位](https://www.qbitai.com) and [机器之心](https://www.jiqizhixin.com) |
 | Government / program pages | [J-Startup](https://www.j-startup.go.jp), JETRO, METI program announcements, local accelerator sites |
-| Corporate registry | [国税庁 法人番号公表サイト](https://www.houjin-bangou.nta.go.jp) for legal name, corporate number, registered address and its history |
+| Corporate registry | [国税庁 法人番号公表サイト](https://www.houjin-bangou.nta.go.jp) (Japan) for legal name, corporate number, registered address and its history; [国家企业信用信息公示系统](https://www.gsxt.gov.cn) (China) for registration, capital, legal representative and changes, with [天眼查](https://www.tianyancha.com) and [企查查](https://www.qcc.com) as searchable mirrors of the same filings |
 | Filings | EDINET (Japan), SEC EDGAR (US) — relevant when a partner or acquirer is listed |
 | Industry media | Trade publications for the company's sector; they cover product launches national outlets skip |
 
 Databases are useful for finding leads — a round you hadn't seen, an investor name — but confirm every figure against a primary source before it goes on the page.
+
+**Cite the original article, not a reprint.** General-interest portals and content platforms — Sina, NetEase, Sohu, Tencent News, Baidu Baijiahao, Toutiao, Zhihu columns in Chinese; Infoseek News and regional newspaper sites carrying PR TIMES copy in Japanese — mostly republish other people's work, usually with a 来源 or 転載 line naming the origin. Follow that line and cite the trade publication, the wire release, or the company post it came from. A portal reprint is acceptable only when the original is genuinely gone, and then it should be labelled as a reprint of a named source. Prefer vertical trade media covering the company's own sector over general tech or business outlets: they carry the operational detail national outlets drop.
+
+Two further habits specific to Chinese coverage. First, funding amounts are frequently reported as a band rather than a number — 数千万元, 近亿元, 数亿元 — and the currency is often left implicit; record the phrase as published and the currency only if the source states it, rather than converting a band into a false precision. Second, much of the coverage originates from the company's own material, so several outlets carrying the same figure is one source, not corroboration; trace it back to the earliest 首发 article before treating it as confirmed.
 
 ### 8. Founder and company social media
 
@@ -334,6 +350,7 @@ When a retained source stops working: look for the official replacement URL, the
 - [ ] Conflicts between sources are listed in `Notes`, not silently resolved
 - [ ] Absence findings state the search date and reviewed public-source scope
 - [ ] Source precedence matches the claim type
+- [ ] Sources are original articles, not portal reprints, wherever the original exists
 - [ ] Undated and mutable sources carry an `Accessed` date without implying currency
 - [ ] Founder or company social posts preserve attribution and aspiration/current status
 - [ ] The page applies materiality rather than reproducing every available disclosure
