@@ -13,7 +13,7 @@ AIsa 是一家总部位于旧金山、成立于 2025 年的公司（[2026-07-03 
 - 在没有付费营销的情况下已接入超过 50,000 个注册 agent；2026 年 2 月至 6 月间注册 agent 用户增长 150 倍，API 调用与交易量增长 200 倍（[2026-07-03 新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)）。官网另称 "Join 5,000+ Agents Already Running"（[官网](https://aisa.one/)；无日期，访问于 2026-07-29）——见 `备注`。
 - 累计融资 650 万美元，其中包括由阿里巴巴与 Tribe Capital 联合领投的种子轮，公布于 [2026-07-03](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)。更早还有两次金额未披露的 Pre-Seed 公告，分别发布于 [2025-08-31](https://www.chaincatcher.com/article/2202064) 和 [2025-10-28](https://www.chaincatcher.com/article/2215658)，投资方名单重叠但并不一致——见 `备注`。
 - 团队规模被表述为 10 人（[Forbes，2026-07-03](https://www.forbes.com/sites/elainepofeldt/2026/07/03/startup-raises-65-million-by-making-it-easier-for-ai-employees-to-make-payments-online/)）；LinkedIn 公司页显示为 2–10 人区间（[LinkedIn](https://www.linkedin.com/company/aipayhq)；无日期，访问于 2026-07-29）。
-- 工程方面的证据来自可观察的产品表层而非公开的技术栈说明：站点为 Next.js 并置于 Cloudflare 之后，文档为部署在 Vercel 上的 Mintlify，`api.aisa.one/v1` 提供 OpenAI 兼容推理接口，`/apis/v1` 为 bearer 认证的数据 API，`/apis/v2` 为 x402 按调用付费的镜像，开源 agent Skills 以 Python 和 Node 发布于 [github.com/AISA-skills](https://github.com/AISA-skills)。未找到招聘页、除一篇之外的工程博客，或公开的工作语言政策（2026-07-29）。
+- 工程方面的证据来自可观察的产品表层而非公开的技术栈说明：站点为 Next.js 并置于 Cloudflare 之后，文档为部署在 Vercel 上的 Mintlify，`api.aisa.one/v1` 提供 OpenAI 兼容推理接口，`/apis/v1` 为 bearer 认证的数据 API，`/apis/v2` 为 x402 按调用付费的镜像，开源 agent Skills 以 Python 和 Node 发布于 [github.com/AISA-skills](https://github.com/AISA-skills)。站点没有招聘页；找到的唯一公开招聘渠道是 [2026-05-21](https://www.v2ex.com/t/1214335) 至 [2026-07-28](https://www.v2ex.com/t/1230516) 期间在 V2EX 上发布的四篇中文招聘帖，它们也是关于岗位、所需技术栈和工作条件的唯一公开来源。
 
 ---
 
@@ -133,6 +133,8 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 
 [2026-07-03 新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)中 Liu 的头衔是 "Founder and CEO"，而 [2025-10-28 的 Pre-Seed 公告](https://www.chaincatcher.com/article/2215658)写的是"联合创始人兼 CEO"，Forbes 也称他为 co-founder。所查阅的任何来源都没有点名第二位联合创始人。
 
+[2026-05-21 的招聘帖](https://www.v2ex.com/t/1214335)写明 AI 工程师岗位的汇报对象是 "CEO / CTO 团队"——这是所有来源中唯一一处提到 CTO 的地方。没有任何来源点名过 CTO。
+
 截至 2026-07-29，Liu 是 AIsa 官网、新闻稿、博客、文档和 GitHub 组织中唯一被点名的个人。站点没有团队页、公司介绍页或管理层页面。Forbes 称公司有 10 人团队，但未点名其他成员（[Forbes，2026-07-03](https://www.forbes.com/sites/elainepofeldt/2026/07/03/startup-raises-65-million-by-making-it-easier-for-ai-employees-to-make-payments-online/)）。
 
 较长的公开露面：[The Breakdown 播客——"The Three Layers of AI Agent Commerce with Jordan Liu"](https://open.spotify.com/episode/4lk37Fn2yiVrni6NIRvZri)。
@@ -168,6 +170,7 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 - **Skills 的实现：** 公开仓库使用 Python 和 Node——例如 `search-research-skills` 中，Tavily skill 提供 `SKILL.md` 加 `scripts/*.mjs`，`last30days` skill 提供一个 `scripts/lib/` Python 包，内含 Reddit、TikTok、Instagram、Pinterest、YouTube、Hacker News、Polymarket、小红书、聚类、去重、重排序和渲染等模块（[仓库文件树](https://github.com/AISA-skills/search-research-skills)；访问于 2026-07-29）。七个仓库中六个采用 MIT 许可，`saas-automation-skills` 为 Apache-2.0。
 - **Skill 打包方式：** 每个 skill 是一个目录，内含带 YAML front matter 的 `SKILL.md`（字段包括 `name`、`description`、`compatibility`，以及声明所需二进制文件和 `AISA_API_KEY` 等环境变量的 `metadata.aisa` 块）。声明的兼容目标是"OpenClaw、Claude Code、Hermes 等兼容 Agent Skills 的客户端，以及基于 GitHub 的 skill 目录"（[SKILL.md 示例](https://raw.githubusercontent.com/AISA-skills/search-research-skills/main/aisa-tavily/SKILL.md)；访问于 2026-07-29）。
 - **限流：** 按 API key 在 RPM、TPM（输入＋输出合计）和并发三个维度上执行，文档给出了 `X-RateLimit-*` 和 `Retry-After` 响应头（[限流文档](https://aisa.one/docs/api-reference/rate-limits)）。
+- **仅出现在招聘要求中的技术**，来自 V2EX 招聘帖，未在其他渠道确认已投入生产：Python 为必需语言；Go 和 TypeScript 为优先项；LangChain、CrewAI、AutoGen、MetaGPT 被列为多智能体框架，要求至少熟悉其一；RAG、向量检索与文档结构化解析；SFT、RL、DPO 后训练为加分；增长岗要求爬虫、自动化脚本以及 OpenAI、Anthropic、Gemini 的 API；n8n 和 Dify 为加分的低代码工作流平台；Claude Code、Codex、Cursor 被列为团队使用的 AI 编程工具（[2026-05-21](https://www.v2ex.com/t/1214335)、[2026-05-25](https://www.v2ex.com/t/1215230)、[2026-07-28](https://www.v2ex.com/t/1230516)）。招聘要求不能证明当前已在生产中使用。
 
 ### 系统
 
@@ -184,6 +187,8 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 
 **发现层的设计。** 署名 "AIsa Team" 的工程博客 [The Agent-Readable Web（2026-04-23）](https://aisa.one/blog/the-agent-readable-web)描述了围绕 "five-hop test" 重建发现表层的做法——agent 应能在五次 HTTP 请求内取得完成交易所需的全部信息，链路为 `robots.txt` → `llms.txt`（文中称约 650 行）→ `agent-card.json` → `sitemap.xml` → 各 skill 的 OpenAPI 规范（文中称当时已发布 24 份）。文章主张服务端渲染的文档优于客户端 SPA，主张语义化 HTML 和 JSON-LD，并把立场概括为"对 agent 友好和对人友好大体上是一致的"。
 
+**招聘帖中描述的内部智能体系统。** [2026-05-25 的招聘帖](https://www.v2ex.com/t/1215230)称公司"对内同样是一家 AI 原生公司——所有关键业务流程都运行在自研的多智能体系统之上"，因此该岗位既为客户构建智能体基础设施，也用同一套技术支撑公司自身运转。[2026-05-21 的帖子](https://www.v2ex.com/t/1214335)把工作分为对外产品侧（在资源层之上构建自主 Agent、跨模型服务商动态路由、外部 API 组合调用、Agent 原生支付与授权）和对内系统侧（覆盖增长、客服、风控、财务的内部多 Agent 操作系统）。AI 工程师岗位描述还提到带可追溯执行链路与安全降级的自然语言运营控制台、把执行轨迹沉淀为可复用技能的技能库，以及智能体评估与回归流水线。这些都是公司在招聘语境下的自述，在公开产品表层上均无法观察到。
+
 **MCP 状态。** MCP 清单为每个 skill 列出一个服务器条目，地址形如 `https://mcp.aisa.one/<slug>/sse`，传输方式为 `http+sse`；但清单本身注明这只是一种约定而非标准的 well-known 文件，且 `status: "planned"` 的条目"仍在逐步上线——拨号时请按 status 过滤"（[mcp.json](https://aisa.one/.well-known/mcp.json)；访问于 2026-07-29）。2026-07-29 检查时 `mcp.aisa.one` 无法解析。
 
 ### 文档中的数据处理说明
@@ -192,7 +197,30 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 
 ### 招聘所需技术背景
 
-无法确定。截至 2026-07-29，在所查阅的公开来源中未找到 AIsa 的任何招聘职位——见 `备注`。
+以下全部来自四篇 V2EX 招聘帖，发帖账号为 `wateryfield`，帖中点名公司为 AIsa 并给出 `aisa.one` 链接。系列中出现过的岗位：AI 工程师、后端／全栈工程师、增长工程师、开发者关系工程师。
+
+**AI 工程师**（[2026-05-21](https://www.v2ex.com/t/1214335)、[2026-05-25](https://www.v2ex.com/t/1215230)、[2026-07-28](https://www.v2ex.com/t/1230516)）
+
+- *必需：* 在生产环境构建过多智能体系统；熟悉 LangChain、CrewAI、AutoGen、MetaGPT 中至少一种；理解 RAG、工具调用、长任务编排以及智能体失败模式与兜底机制；能在成本、延迟、可靠性、可解释性之间做工程取舍；有从日志、人工标注、用户反馈构建训练集与评估集的实战经验。2026-07-28 版本追加了 2 年以上 AI 开发经验且主导或参与过成熟 AI 产品，以及大厂或创业公司背景，其中创业公司背景需附带用户数、营收或融资。
+- *优先／加分：* 集群架构实战经验或自研过智能体框架；构建过跨服务商动态路由系统；自主部署过大模型或有 SFT、RL、DPO 后训练经验；多模态检索；支付系统、自主交易流程或高可用系统经验；大模型裁判或自动化智能体回归测试；参与过协议规范讨论或开源实现；在 AI 或智能体开源社区持续贡献。
+- *明确不适合的人*（[2026-05-21](https://www.v2ex.com/t/1214335)）：只做提示词工程、不愿深入框架内部的；只想做客户产品、不愿做内部智能体系统的；需要非常明确的 PRD 才能开始推进工作的。
+
+**后端／全栈工程师**（[2026-05-25](https://www.v2ex.com/t/1215230)、[2026-07-28](https://www.v2ex.com/t/1230516)）
+
+- *必需：* 扎实的后端或全栈基础；熟悉 API、数据库、云基础设施和日常工程运维；具备中英文沟通能力。经验要求从 5 月的"1–5 年"变为 7 月的"3–5 年"，并追加 211/985 本科及以上学历和大型互联网公司经验。
+- *加分：* LLM、模型 API、AI gateway 或 inference platform 经验；DevOps、部署、云运维；用过 Claude Code、Codex 或 Cursor。
+- 该岗位明确包含平台运营工作——模型上线、价格更新——与 API、agent skills 和 plugins 开发并列。
+
+**增长工程师**（[2026-05-25](https://www.v2ex.com/t/1215230)）
+
+- *必需：* 独立 Owner 过完整的工具、工作流或小产品；熟悉爬虫、API 调用、自动化脚本、数据清洗与分析；熟悉主流 LLM API（OpenAI、Anthropic、Gemini）并能做工作流编排；会写 Skill；有成功的 SEO 经验，覆盖关键词、搜索意图、内容结构、收录、排名和转化；英语读写可作为工作语言。
+- *加分：* 增长黑客项目经验，如批量 SEO 页面生成、批量 KOL 建联、批量内容分发；n8n 或 Dify；C 端海外产品工程化；独立开发者、出海工具、内容站或 SEO 站点经验。
+
+**开发者关系工程师**（[2026-06-24](https://www.v2ex.com/t/1222499)，[2026-07-28](https://www.v2ex.com/t/1230516) 重发）
+
+- *必需：* 能独立写代码、跑通 API 集成与 Agent 开发；熟悉 Python；理解 LLM、Agent、RAG 等基本概念；优秀的中文技术写作能力。
+- *加分：* TypeScript 或 Go；后端、SDK 或开发者工具开发经验；LangChain 等框架；开源项目维护者；技术圈个人品牌；Meetup 或技术大会分享经验；DevTool／API 平台的 DevRel 或 DX 经验；早期创业团队经历。
+- 帖中写明这是公司的首位开发者关系工程师，且职责明确面向中国开发者社区，点名 GitHub、掘金、知乎、V2EX、技术微信群和线下技术大会作为目标渠道。
 
 ### 行业领域
 
@@ -202,12 +230,18 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 
 | 项目 | 内容 | 来源 |
 |---|---|---|
-| 招聘页 | 没有。`/careers`、`/jobs`、`/about`、`/team` 和 `/contact` 均返回 HTTP 404；页脚的 "Contact" 链接也不指向招聘页 | 2026-07-29 检查的 aisa.one 路径 |
-| 地点 | 总部旧金山；LinkedIn 另列出新加坡 | [新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)、[LinkedIn](https://www.linkedin.com/company/aipayhq) |
-| 团队规模 | 10 人（Forbes）；2–10 人区间（LinkedIn） | [Forbes](https://www.forbes.com/sites/elainepofeldt/2026/07/03/startup-raises-65-million-by-making-it-easier-for-ai-employees-to-make-payments-online/)、[LinkedIn](https://www.linkedin.com/company/aipayhq) |
+| 招聘页 | 站点上没有。`/careers`、`/jobs`、`/about`、`/team` 和 `/contact` 均返回 HTTP 404；页脚的 "Contact" 链接也不指向招聘页 | 2026-07-29 检查的 aisa.one 路径 |
+| 公开招聘渠道 | V2EX 上账号 `wateryfield` 发布的四篇中文招聘帖，分别为 2026-05-21、2026-05-25、2026-06-24 和 2026-07-28，位于酷工作和远程工作节点。投递邮箱被 V2EX 遮蔽 | [2026-05-21](https://www.v2ex.com/t/1214335)、[2026-05-25](https://www.v2ex.com/t/1215230)、[2026-06-24](https://www.v2ex.com/t/1222499)、[2026-07-28](https://www.v2ex.com/t/1230516) |
+| 远程政策 | "远程居家办公"，全职性质，不接受兼职。2026-05-21 的标题写了北上广深杭和新加坡，发帖人在帖内更正："我写错了，其实是远程的，团队偶尔几个月会线下一起办公，之前在北京是在中关村附近租了个共享办公室" | [2026-05-25](https://www.v2ex.com/t/1215230)、[2026-05-21 第 4 楼](https://www.v2ex.com/t/1214335) |
+| 地点 | 总部旧金山；LinkedIn 另列出新加坡；V2EX 帖中提到此前在北京有共享办公室 | [新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)、[LinkedIn](https://www.linkedin.com/company/aipayhq)、[2026-05-21](https://www.v2ex.com/t/1214335) |
+| 团队规模 | 10 人（Forbes）；2–10 人区间（LinkedIn）；招聘帖中自述为"小而精的公司"，成员具有 211/985、海外留学及大厂背景 | [Forbes](https://www.forbes.com/sites/elainepofeldt/2026/07/03/startup-raises-65-million-by-making-it-easier-for-ai-employees-to-make-payments-online/)、[LinkedIn](https://www.linkedin.com/company/aipayhq)、[2026-07-28](https://www.v2ex.com/t/1230516) |
 | 公开的招聘意向 | 融资将用于"扩充 AIsa 的工程团队" | [新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network) |
-| 工作语言 | 所查阅的资料均未说明。站点发布 13 个语言版本，GitHub skills 目录也提供中文版本（`last30days-zh`、`prediction-market-*-zh`），但两者都不能确立内部工作语言 | [sitemap.xml](https://aisa.one/sitemap.xml)、[Skills 索引](https://aisa.one/skills) |
-| 远程政策、签证支持、薪资、期权、福利 | 未公开 | — |
+| 工作语言 | 没有公司层面的统一政策。AI 工程师和增长工程师岗位要求英文读写作为工作语言；后端岗位要求中英文沟通，发帖人在帖内解释为"因为有时候需要和供应商还有客户英语交流"；开发者关系岗位要求优秀的中文技术写作能力。2026-07-28 帖下一条询问"一定要英语流利吗"的回复，截至 2026-07-29 未获答复 | [2026-05-25 及第 2 楼](https://www.v2ex.com/t/1215230)、[2026-07-28](https://www.v2ex.com/t/1230516)、[2026-06-24](https://www.v2ex.com/t/1222499) |
+| 薪资 | 未公开。三个帖子里都有人直接问过，发帖人只回过一次"open 可聊"，另两次未答 | [2026-05-21 回复](https://www.v2ex.com/t/1214335)、[2026-05-25 回复](https://www.v2ex.com/t/1215230)、[2026-07-28](https://www.v2ex.com/t/1230516) |
+| 期权 | 2026-05-21 的 AI 工程师帖写"有竞争力薪资 + 创始团队级期权"；之后的帖子只写薪资 | [2026-05-21](https://www.v2ex.com/t/1214335) |
+| 职级路线与汇报关系 | AI 工程师被描述为资深 IC 路线、不管理人，汇报对象为 "CEO / CTO 团队" | [2026-05-21](https://www.v2ex.com/t/1214335) |
+| 面试方式 | 视频面试 | [2026-07-28](https://www.v2ex.com/t/1230516) |
+| 加班、签证支持、福利、流失率 | 未公开。2026-05-25 帖下一条询问加班情况的回复，截至 2026-07-29 未获答复 | [2026-05-25 回复](https://www.v2ex.com/t/1215230) |
 
 ---
 
@@ -215,10 +249,11 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 
 ### 未公开披露
 
-以下结论的检索范围（2026-07-29）：`aisa.one` 首页、`robots.txt`、完整 `sitemap.xml`、新闻索引、博客索引及所列十篇文章的元信息、产品 `llms.txt` 与 `/docs/llms.txt`、定价／钱包／限流／架构／安全／机器支付等文档页、服务条款与隐私政策、`.well-known` 发现文件、`api.aisa.one` 响应头，以及 `AISA-skills` GitHub 组织及其七个仓库；对品牌名、法律名称和创始人的英文与中文检索；Draper Associates 投资组合页、LinkedIn 公司页、Dealroom 档案；英文媒体报道；以及在 36 氪、钛媒体、ChainCatcher、Odaily、PANews、BlockBeats、深潮 TechFlow、Foresight News 和金色财经上的中文检索。
+以下结论的检索范围（2026-07-29）：`aisa.one` 首页、`robots.txt`、完整 `sitemap.xml`、新闻索引、博客索引及所列十篇文章的元信息、产品 `llms.txt` 与 `/docs/llms.txt`、定价／钱包／限流／架构／安全／机器支付等文档页、服务条款与隐私政策、`.well-known` 发现文件、`api.aisa.one` 响应头，以及 `AISA-skills` GitHub 组织及其七个仓库；对品牌名、法律名称和创始人的英文与中文检索；Draper Associates 投资组合页、LinkedIn 公司页、Dealroom 档案；英文媒体报道；在 36 氪、钛媒体、ChainCatcher、Odaily、PANews、BlockBeats、深潮 TechFlow、Foresight News 和金色财经上的中文检索；以及 V2EX 酷工作和远程工作节点，包括发帖账号的完整主题列表。
 
-- **招聘职位与招聘入口。** 未找到。站点没有招聘页，在所查阅的招聘网站和数据库中也未找到 AIsa 或 AIPay 的职位。招聘意向仅在融资新闻稿中提及。
-- **除创始人外的具名员工。** 没有。没有团队页，也没有工程署名——唯一一篇技术文章署名为 "AIsa Team"。
+- **公司自有渠道上的招聘入口。** 站点没有招聘页，在所查阅的英文招聘网站和数据库中也未找到 AIsa 或 AIPay 的职位。招聘实际发生在 V2EX 上、以中文进行——见 `工程`。aisa.one 上没有任何链接指向这些帖子。
+- **除创始人外的具名员工。** 没有。没有团队页，也没有工程署名——唯一一篇技术文章署名为 "AIsa Team"。V2EX 帖子由账号 `wateryfield` 发布，该账号未写明姓名或职务。
+- **薪资区间。** 四篇 V2EX 招聘帖均未公布；被直接问及时答复为"open 可聊"。
 - **以货币计的收入和交易额。** 未披露。增长只以倍数（150 倍、200 倍）和一个 API 调用次数（2026-04-23 的"超过一百万次"）形式给出。
 - **种子轮的单独金额。** 公司只公布 650 万美元的累计数；Pre-Seed 金额始终未披露。
 - **安全认证。** 所查阅的任何页面都未声明 SOC 2、ISO/IEC 27001 或同类认证。安全文档明确表示不公开协议版本和加密配置。
@@ -235,6 +270,7 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 - **同一轮次名称下的两次 Pre-Seed 公告。** [2025-08-31](https://www.chaincatcher.com/article/2202064) 和 [2025-10-28](https://www.chaincatcher.com/article/2215658) 两篇都宣布完成 "Pre-Seed" 且都未披露金额。两篇互不提及，投资方名单也有差异：SosoValue 和 CatherVC 在 8 月以机构身份出现、10 月则不再出现，取而代之的是 CatherVC 联合创始人以天使身份出现；Trampoline Ventures 和 SNZ Capital 只出现在 10 月。这究竟是同一轮公告两次、一次追加，还是两次独立交割，所查阅的资料均未说明。
 - **两次公告中投资方名称的写法不同：** 8 月写"分布式资本（沈波）"，10 月写 "Fenbushi Capital US（Shen Bo）"——是同一家机构；那位前淡马锡创投合伙人 8 月写作 "Karen"、10 月写作 "Kari"；Harry 在 8 月是 Pioneer Fund 创始人、在 10 月是 Awakening Ventures 创始合伙人；Lucia 的基金 8 月未具名、10 月写作 Arcanum Capital。
 - **创始人头衔：** [2026-07-03 新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)写 "Founder and CEO"，[2025-10-28 公告](https://www.chaincatcher.com/article/2215658)写"联合创始人兼 CEO"，[Forbes](https://www.forbes.com/sites/elainepofeldt/2026/07/03/startup-raises-65-million-by-making-it-easier-for-ai-employees-to-make-payments-online/)写 co-founder。第二位联合创始人始终未被点名。
+- **招聘帖与新闻稿对融资的描述不同。** [2026-05-21 的 V2EX 帖](https://www.v2ex.com/t/1214335)称"公司已完成两轮融资，融资规模数千万，即将启动 A 轮"，投资方"覆盖支付、云计算等领域"。[2026-07-03 新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)称截至目前累计 650 万美元，并把该轮称为种子轮而非 A 轮。V2EX 的说法没有写明币种，且招聘帖的来源强度弱于公司新闻稿；此处并列记录，不作调和。
 - **资源目录规模在不同时点的口径：** [2025 年 10 月](https://www.chaincatcher.com/article/2215658)称 AI Marketplace-402 聚合"600+ LLMs、100 万+ 数据 API 与 GPU"，而当前[官网](https://aisa.one/)写 "1000+ APIs, Skills, and LLMs"，[sitemap](https://aisa.one/sitemap.xml) 中为 102 个模型页。2025 年的数字描述的是一个如今已不在站点上的产品名。
 - **目录规模：** [官网](https://aisa.one/)的 "1000+ APIs, Skills, and LLMs" 对 A2A card 中广播的 43 项能力（[agent-discovery](https://aisa.one/agent-discovery)）以及 [sitemap](https://aisa.one/sitemap.xml) 中的 240 个目录页（102 模型、90 API、48 skill）。这些数字统计的单位不同——端点、广播的能力和目录页——且没有任何页面说明用的是哪一种。
 - **模型网关覆盖面：** [agent card](https://aisa.one/.well-known/agent-card.json) 写 "50+ LLMs"，[ai-plugin 清单](https://aisa.one/.well-known/ai-plugin.json)和 [2026-02-19 博客](https://aisa.one/blog/introducing-aisa-unified-gateway)标题写 "100+ AI models"，而 sitemap 中是 102 个模型页。
@@ -247,6 +283,8 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 - **报道在语言和时段上是分裂的。** 2025 年的两次 Pre-Seed 公告和黑客松赞助由中文加密行业媒体（ChainCatcher）刊发，未找到英文主流科技媒体报道；2026 年的种子轮由英文商业与创投媒体（Forbes、Business Insider、Yahoo Finance、FinSMEs、CryptoRank、The AI Insider）刊发，截至 2026-07-29 在所查阅的来源中未找到中文报道。就种子轮检索 36 氪、钛媒体、Odaily、PANews、BlockBeats、深潮 TechFlow、Foresight News 和金色财经，均无对应文章。
 - **2025 年公告中的生态合作表述，当前站点没有以同样的方式重复。** 2025 年 8 月列出了与 Circle、Visa、Stripe、PayPal、Privy 和 JPMorgan Kinexys 的关系（[ChainCatcher](https://www.chaincatcher.com/article/2202064)）；当前的[融资新闻稿](https://aisa.one/news/aisa-raises-6-5m-ai-agent-resource-network)只收窄为"已与 Circle、Visa 和 Stripe 的 agent 支付相关计划集成"。截至 2026-07-29，站点上没有提及 PayPal、Privy 和 JPMorgan Kinexys。
 - **面向不同受众的定位表述并不一致。** 公司自己的新闻稿称其为"资源与交易网络"；Forbes 和 Business Insider 的标题把它写成一家支付公司；LinkedIn 页面名称是 "The Resource Marketplace for AI Apps"；Draper Associates 的投资组合条目则描述为"一个可类比 Visa 的 AI agent 支付网络"，并使用区块链技术（[Draper Associates](https://www.draper.vc/portfolio/alsa)）。
+- **V2EX 上的招聘帖构成一个带日期的序列，可以互相比对。** 后端岗位的经验要求从"1–5 年"（[2026-05-25](https://www.v2ex.com/t/1215230)）变成"3–5 年"并追加 211/985 学历和大型互联网公司经验（[2026-07-28](https://www.v2ex.com/t/1230516)）。发帖人在 2026-05-27 宣布后端 HC 已招到并暂时关闭，之后又在 2026-07-28 重新发布该岗位。5 月和 6 月的帖子没有点名投资方（只写"国际顶级风投及知名战略投资方，覆盖支付、云计算等领域"），7 月的帖子在融资公布之后点了名。2026-07-29 访问时四帖的浏览量分别为 3,645、3,327、2,036 和 982。
+- **招聘帖写明站点在中国大陆需要 VPN 才能打开**（"需 vpn 打开网址"，[2026-07-28](https://www.v2ex.com/t/1230516)），而同一批帖子正在招聘一位职责面向中国开发者社区的开发者关系工程师，站点也发布了简体和繁体中文版本。
 - **相对于其规模，公司发布了异常多的机器可读表层**——六份发现文件、一份 OpenAPI 3.1 规范、13 种语言的分语言站点树和 240 个目录页——同时却没有团队页、招聘页或任何具名的工程人员。
 - **产品的大部分细节都在控制台之后。** 逐端点定价、用量日志、预算和 API key 管理在文档中有描述，但都需要账户；`console.aisa.one` 位于 Cloudflare 挑战页之后。
 - **官网把 Machine-to-Machine 标注为 Private Beta、Foundry 标注为 Coming Soon**，而融资新闻稿、博客文章以及 `api.aisa.one` 上实际返回的 `HTTP 402` 挑战都在描述机器支付已在运行。测试版标注与 `/apis/v2` 上已上线的 x402 镜像之间的范围差异，所查阅的页面都没有解释。
@@ -282,6 +320,7 @@ Arc 黑客松集成给出的单次请求价格区间为"每请求 0.00044 至 0.
 - [ChainCatcher —— Pre-Seed 公告，2025-08-31（中文）](https://www.chaincatcher.com/article/2202064) · [英文](https://www.chaincatcher.com/en/article/2202064)
 - [ChainCatcher —— 第二次 Pre-Seed 公告，2025-10-28（中文）](https://www.chaincatcher.com/article/2215658) · [英文](https://www.chaincatcher.com/en/article/2215658)
 - [ChainCatcher —— Solana x402 黑客松赞助，2025-11-07（中文）](https://www.chaincatcher.com/article/2218188) · [英文](https://www.chaincatcher.com/en/article/2218188)
+- V2EX 招聘帖，发帖账号 `wateryfield` —— [AI Engineer，2026-05-21（中文）](https://www.v2ex.com/t/1214335) · [AI／后端／增长工程师，2026-05-25（中文）](https://www.v2ex.com/t/1215230) · [开发者关系工程师，2026-06-24（中文）](https://www.v2ex.com/t/1222499) · [AI／后端／开发者关系工程师，2026-07-28（中文）](https://www.v2ex.com/t/1230516)
 - [Draper Associates —— 投资组合条目](https://www.draper.vc/portfolio/alsa)
 - [LinkedIn —— 公司页](https://www.linkedin.com/company/aipayhq)
 - [LinkedIn —— "Unfiltered with Jordan Liu"，Qin En Looi，2026-05-11](https://www.linkedin.com/pulse/unfiltered-jordan-liu-founder-ceo-alsa-qin-en-looi--rytrc)
