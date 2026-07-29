@@ -14,7 +14,8 @@ MachinePulse Pte. Ltd. 是一家在新加坡注册的公司，做它自己所称
 - 唯一找到的融资表述出自公司自己，在[招聘页面](https://join.machinepulse.ai/)和某个岗位正文中重复出现：「backed by top-tier USD funds, with a valuation approaching $100 million」（获顶级美元基金支持，估值接近 1 亿美元）。任何地方都没有公布过轮次、投资方或日期。
 - 招聘站列出 20 个在招岗位（[jobs API](https://join.machinepulse.ai/api/jobs)；访问于 2026-07-29）。其中 18 个定位在**上海**，1 个在纽约；所有岗位的可选地点都是新加坡、上海、纽约、加州湾区。工程岗位描述了 Go 与 Python 后端、跑在 AWS/GCP/Azure 上的 Kubernetes、一个 iOS 客户端，以及一个自研的 LLM 后训练团队。
 - [GitHub 组织](https://github.com/machinepulse-ai)创建于 2025-11-11，标注地点为新加坡，有 6 个公开仓库；[world2agent](https://github.com/machinepulse-ai/world2agent) 在 2026-07-29 访问时有 1,245 个 star、40 个 fork。
-- 查阅的资料中没有任何一处点出创始人或 CEO。能确认姓名的员工只有新闻稿中被引用的一位增长负责人和 LinkedIn 上的一位工程师；一则设计实习岗位提到「有字节跳动背景的资深从业者」。
+- 管理层只能从 LinkedIn 识别，且必须有登录态：**Leah Wang**，2026 年 1 月起任 CEO（此前在字节跳动任 Strategic Product Manager 至 2025 年 11 月）；**Nanqun Chen**，2025 年 12 月起任联合创始人兼 COO（前字节跳动，目前同时挂着阶跃星辰 Lead Product Manager）；**Lucas Wu**，2025 年 12 月起任创始成员（前腾讯、前智谱 Z Fund）。公司自己掌控的任何页面上都没有出现过这些名字。
+- Karpo 在 iMessage 上的运行依托 **Linq** 的消息基础设施，这一点由 MachinePulse 一位创始成员陈述，并在 [Linq 的社区页面](https://linqapp.com/community)得到印证。
 - **重名问题：**另有一家完全无关的工业物联网公司也叫 MachinePulse（孟买，`machinepulse.com`），它占据了搜索结果和创业数据库。Crunchbase、Tracxn、GetLatka 上「MachinePulse」的条目描述的是那一家，不是这一家。
 
 ---
@@ -31,6 +32,8 @@ MachinePulse Pte. Ltd. 是一家在新加坡注册的公司，做它自己所称
 | 自述方向 | 「Proactive AI Agents」与人机交互的演进 | [招聘页面](https://join.machinepulse.ai/) |
 | GitHub 组织创建时间 | 2025-11-11；地点新加坡；6 个公开仓库 | [GitHub API](https://github.com/machinepulse-ai) |
 | 联系方式 | support@（Karpo）、contact@（GitHub 组织）、partnership@、ahr@（社招）、intern@（实习），均为 `@machinepulse.ai` | [官网](https://www.machinepulse.ai/)、[Karpo 关于页面](https://app.karpo.ai/about-us)、[招聘页面](https://join.machinepulse.ai/) |
+| 员工人数 | LinkedIn 区间为 51–200 人，有 17 人把 MachinePulse 列为当前雇主；411 个关注者 | [LinkedIn](https://www.linkedin.com/company/machinepulseai/about/)；2026-07-29 登录状态下访问 |
+| 管理层 | Leah Wang（CEO）、Nanqun Chen（联合创始人、COO）、Lucas Wu（创始成员）、Titus Zhai（增长负责人） | LinkedIn 主页；见`创始人`一节 |
 | 社交账号 | [LinkedIn](https://www.linkedin.com/company/machinepulseai/about/)、X [@MachinePulse_AI](https://x.com/MachinePulse_AI) 与 [@Karpo_AI](https://x.com/Karpo_AI)、[Instagram](https://www.instagram.com/karpo.ai)、[Discord](https://discord.gg/hDjaD8pX) | [官网](https://www.machinepulse.ai/)、[World2Agent](https://world2agent.ai/) |
 | 官网版权年份 | 2026 | [官网](https://www.machinepulse.ai/) |
 
@@ -117,16 +120,52 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 
 ## 创始人
 
-官网、招聘页面、Karpo 全部页面、所有仓库以及查阅的所有新闻稿中，都没有点出创始人、CEO 或任何高管。[GitHub 组织](https://github.com/orgs/machinepulse-ai/people)没有公开成员。
+官网、招聘页面、Karpo 全部页面、所有仓库以及所有新闻稿中，都没有点出创始人或任何高管。[GitHub 组织](https://github.com/orgs/machinepulse-ai/people)没有公开成员。管理层只能从 LinkedIn 主页识别，而这需要登录态才能查看；以下四人均于 2026-07-29 读取。
 
-能确认姓名的两个人：
+| 姓名 | 角色 | 起始 | 所在地 | 来源 |
+|---|---|---|---|---|
+| Leah Wang | 首席执行官 | 2026 年 1 月 | 北美 | [LinkedIn](https://www.linkedin.com/in/leah-wang-8676903a8/) |
+| Nanqun Chen | 联合创始人、COO | 2025 年 12 月 | 新加坡 | [LinkedIn](https://www.linkedin.com/in/nanqunchen/) |
+| Lucas Wu | 创始成员 | 2025 年 12 月 | 新加坡 | [LinkedIn](https://www.linkedin.com/in/fan-lucas-wu/) |
+| Titus Zhai | 增长负责人 | — | — | [2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html) |
 
-| 姓名 | 角色 | 来源 |
-|---|---|---|
-| Titus Zhai | MachinePulse 增长负责人（Head of Growth） | [2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)中被引用 |
-| Lucas Wu | 「Building proactive AI @MachinePulse」；所在地新加坡 | [LinkedIn](https://sg.linkedin.com/in/fan-lucas-wu)；该主页在 2026-07-29 抓取时返回 HTTP 999，只能读到搜索结果里的标题行 |
+**Leah Wang** —— 首席执行官，主页标题栏自述为「Founder」。该主页只列了两段经历，20 个联系人。
 
-关于团队的两处表述出现在岗位描述里，也是找到的唯一关于团队构成的说法：UI/UX 设计实习岗位承诺「与有字节跳动背景的资深从业者并肩工作」并获得指导，商业运营岗位承诺「可直接接触创始团队」（[jobs API](https://join.machinepulse.ai/api/jobs)；访问于 2026-07-29）。两处都没有点名任何人。
+- 2023 年 8 月 – 2025 年 11 月：字节跳动，Strategic Product Manager（所列地区：亚洲）。
+- 2026 年 1 月至今：MachinePulse 首席执行官，列为「Self-employed」，地区为北美。
+
+**Nanqun Chen** —— 联合创始人兼 COO。
+
+- 2013 年 7 月 – 2014 年 3 月：IBM 软件工程师（DevOps SaaS），宁波。
+- 2014 年 3 月 – 2015 年 12 月：宁波智慧物流科技产品经理，主页描述为 IBM Smarter Logistics Lab；负责化工与冷链物流的 SaaS 平台。
+- 2016 年 1 月 – 2017 年 8 月：上海诺德供应链管理（NodeSCM）高级产品经理，负责 TMS/WMS 平台。
+- 2017 年 8 月 – 2020 年 12 月：小贝文化科技（上海）联合创始人兼产品经理，做 Heychat 社交应用。
+- 2020 年 12 月 – 2022 年 8 月：Silot.ai 高级产品经理，上海；负责印尼市场的 C2C 电商应用 Kaya。
+- 2022 年 10 月 – 2024 年 2 月：字节跳动高级产品经理，上海。
+- 2024 年 4 月至今：阶跃星辰（StepFun）Lead Product Manager，上海。主页上这一段与 MachinePulse 的职位并列显示为「至今」—— 见`备注`。
+- 2025 年 12 月至今：MachinePulse 联合创始人，新加坡。
+
+**Lucas Wu** —— 创始成员；主页标题栏为「Building proactive AI @MachinePulse, ex-Tencent, Duke Fuqua」。所列教育经历：杜克大学 Fuqua 商学院。
+
+- 2019–2021 年：在 BCG、腾讯（智慧零售战略）、AWS（项目管理）和天善资本实习；2021 年 2 月 – 5 月在 TikTok 任 Monetization Product Intern（北京），负责自助广告平台的风控。
+- 2021 年 10 月 – 2023 年 2 月：腾讯轮岗产品经理（腾讯产培项目），深圳。
+- 2023 年 3 月 – 2025 年 9 月：天善资本投资经理，北京；早期 AI 软硬件与智能制造方向。
+- 2025 年 9 月 – 2025 年 12 月：智谱 AI（Z.ai）Z Fund 高级投资经理，北京。
+- 2025 年 12 月至今：MachinePulse 创始成员，新加坡。
+- 2020 年 6 月至今：非营利组织 SEA 社会创新俱乐部发起人。
+
+### 公司陈述的团队来源
+
+关于团队背景存在四种表述，都没有点名任何人，且对创始人来自哪家公司说法不一致：
+
+| 说法 | 来源 |
+|---|---|
+| 「我们的团队来自领先的 AI 应用团队和全球互联网公司，包括 TikTok、Amazon、PayPal 和 Keeta」 | [LinkedIn 公司简介](https://www.linkedin.com/company/machinepulseai/about/) |
+| 「一家隐身状态的 AI 创业公司（由前 TikTok 产品负责人创办）」 | [Lucas Wu 的 LinkedIn 动态](https://www.linkedin.com/in/fan-lucas-wu/)，发布于 2025 年 12 月前后 |
+| 「由来自顶级 AI 实验室的前高管创办，在大语言模型、上下文工程和多智能体系统方面有深厚积累」 | [Lucas Wu 的 MachinePulse 职位描述](https://www.linkedin.com/in/fan-lucas-wu/details/experience/) |
+| 「与有字节跳动背景的资深从业者并肩工作」并获得指导；「可直接接触创始团队」 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+
+两位列出过往雇主的管理层主页都指向字节跳动：Leah Wang 任 Strategic Product Manager 至 2025 年 11 月，Nanqun Chen 任高级产品经理至 2024 年 2 月。
 
 ---
 
@@ -136,7 +175,9 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 
 这条融资表述出现了两次，都在公司自己的招聘文案里。[招聘页面](https://join.machinepulse.ai/)（无日期，访问于 2026-07-29）称 MachinePulse 是一家「global AI startup」，「backed by top-tier USD funds, valued at nearly $100 million」。[Senior Manager, Commercial Operations 岗位描述](https://join.machinepulse.ai/api/jobs)（创建于 2026-05-10）重复为「a global AI startup backed by top-tier USD funds, with a valuation approaching $100 million」，并在待遇部分写「Backed by premier USD funds with a valuation approaching $100M and meaningful equity upside」。
 
-两处都没有点名任何投资方，没有轮次标签或金额，也没有日期。没有任何旁证：新加坡实体在 Crunchbase 和 Tracxn 上都没有条目，也找不到任何提及 MachinePulse 融资的新闻稿、投资方组合页面或报道。同一岗位要求候选人具备「创业公司经验或在早期公司（A 轮及更早）工作过」，这描述的是候选人背景，而非公司自身所处阶段的表述。
+第三处表述性质不同，在 [LinkedIn 公司简介页](https://www.linkedin.com/company/machinepulseai/about/)上（访问于 2026-07-29）：「We have secured continued backing from top-tier investors, with tens of millions of dollars in funding.」（已获得顶级投资方的持续支持，融资规模达数千万美元。）招聘文案说的是估值，这一处说的是融资额。两者并不矛盾，但没有任何一处同时给出这两个数字，也都没有对应到具体轮次或日期。
+
+任何地方都没有点名投资方。三处表述都没有旁证：新加坡实体在 Crunchbase 和 Tracxn 上都没有条目，也找不到任何提及 MachinePulse 融资的新闻稿、投资方组合页面或报道。商业运营岗位要求候选人具备「创业公司经验或在早期公司（A 轮及更早）工作过」，这描述的是候选人背景，而非公司自身所处阶段。
 
 ---
 
@@ -153,6 +194,7 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 | Shotwright 前端 | React 18、Node 20+ | 已确认 —— [README](https://github.com/machinepulse-ai/shotwright) |
 | Shotwright 运行时 | Windows Containers LTSC 2025、Adobe After Effects 2026、nexrender、GitHub Container Registry | 已确认 —— [README](https://github.com/machinepulse-ai/shotwright) |
 | Karpo 交付渠道 | 通过一个美国号码（+1 415 886 0326）走 Apple iMessage | 已确认 —— [工作方式](https://app.karpo.ai/how-it-works) |
+| Karpo 消息基础设施 | [Linq](https://linqapp.com/)，一家提供 iMessage、RCS、短信和语音通信 API 的服务商 —— 「Karpo is now live on iMessage through Linq's messaging infrastructure」 | 已确认 —— [Lucas Wu 的 LinkedIn](https://www.linkedin.com/in/fan-lucas-wu/)；并在 [Linq 社区页面](https://linqapp.com/community)得到印证 |
 | Karpo Web 站点 | `/scenarios/`、`/city-guides/`、`/explore/` 下的服务端渲染页面 | 已确认 —— [sitemap](https://app.karpo.ai/sitemap.xml) |
 
 以下内容来自[岗位描述](https://join.machinepulse.ai/api/jobs)（访问于 2026-07-29），属于招聘证据，不等于生产环境已在使用。硬性要求的语言可以支撑推断；只出现在加分项里的则不能。
@@ -220,22 +262,26 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 
 ### 未公开披露
 
-以下结论的检索范围（2026-07-29）：machinepulse.ai 及其上全部链接；用浏览器渲染 join.machinepulse.ai，并读取其 `/api/jobs` 接口和全部 20 条岗位记录；world2agent.ai 含 SensorHub；app.karpo.ai 含完整 sitemap、FAQ、关于、工作方式和 buzz 页面；通过 REST API 查询 GitHub 组织、其六个仓库及成员页面；world2agent 的 README 和架构文档；Shotwright 的 README；以中英文检索「MachinePulse」「MachinePulse Pte」「Karpo」「Karpo AI」「World2Agent」；Crunchbase、Tracxn 和 GetLatka；uspto.report 商标检索结果；以及检索 Karpo 的 App Store 条目。
+以下结论的检索范围（2026-07-29）：machinepulse.ai 及其上全部链接；用浏览器渲染 join.machinepulse.ai，并读取其 `/api/jobs` 接口和全部 20 条岗位记录；world2agent.ai 含 SensorHub；app.karpo.ai 含完整 sitemap、FAQ、关于、工作方式和 buzz 页面；通过 REST API 查询 GitHub 组织、其六个仓库及成员页面；world2agent 的 README 和架构文档；Shotwright 的 README；以中英文检索「MachinePulse」「MachinePulse Pte」「Karpo」「Karpo AI」「World2Agent」；在已登录的浏览器会话中读取 LinkedIn 公司页及其简介、招聘标签页，以及三位管理层的主页和完整履历页；Crunchbase、Tracxn 和 GetLatka；uspto.report 商标检索结果；以及检索 Karpo 的 App Store 条目。
 
-- 任何地方都没有点出创始人或 CEO。所有站点都没有团队页面。
-- 没有找到任何融资轮次、投资方、估值日期，也没有任何数据库条目能佐证招聘页面上的说法。
+- 在公司自己掌控的任何界面上 —— 官网、招聘页、产品页、仓库、新闻稿 —— 都没有点出创始人或高管。`创始人`一节中的姓名全部来自个人 LinkedIn 主页，而这些主页在未登录状态下无法读取。所有站点都没有团队页面。
+- 没有找到任何融资轮次、投资方、估值日期，也没有任何数据库条目能佐证公司三处自述的融资表述。
 - 没有取得办公地址、注册号或 ACRA 记录。新加坡注册地是由「Pte. Ltd.」后缀推断的，未与登记机关核对；未执行 BizFile 实体查询。
 - 任何产品都没有已公开的收入模式。
 - `app.karpo.ai/terms` 和 `app.karpo.ai/privacy` 虽被落地页链接，但都返回 HTTP 404。Karpo 和 MachinePulse 都没有发布安全页面、子处理方清单、数据留存说明或任何认证。
 - 没有点名任何模型供应商。云厂商只被 SRE 岗位收窄到「AWS、GCP 或 Azure」，并未说明实际使用哪一家。
 - 20 个岗位都没有公布薪资区间，也没有找到签证、福利或人员流动率信息。
-- 没有任何一个具名个人被对应到岗位、部门或汇报关系上；岗位描述提到「创始团队」但从不点名。
+- 没有任何一个具名个人被对应到某个招聘岗位、部门或汇报关系上；岗位描述提到「创始团队」但从不点名。
 - 没有找到主流科技媒体的报道 —— 唯一找到的新闻是 2026-07-28 的一篇稿件，经 openPR 分发并被一批聚合站点转载，此外只有一篇关于 World2Agent 的中文博客。
 - GitHub 组织没有公开成员，因此无法据此识别具体贡献者。
+- Leah Wang 和 Nanqun Chen 的主页都没有填写教育经历，也没有任何一份主页写明公司的成立时间。
 
 ### 不同来源之间的不一致
 
 - **是哪一个 MachinePulse：**[Crunchbase](https://www.crunchbase.com/organization/machinepulse)、[Tracxn](https://tracxn.com/d/companies/machine-pulse/__T2EbVVSjXHxNVi2tptAU2PdQE2I7bYoG-0V2Qt1iFD8) 和 [GetLatka](https://getlatka.com/companies/machinepulse) 对「MachinePulse」返回的是孟买那家无关的工业物联网公司。它们的创始人、收入、人数和融资状态字段都不描述新加坡实体。
+- **创始人来自哪里：**[LinkedIn 公司页](https://www.linkedin.com/company/machinepulseai/about/)写 TikTok、Amazon、PayPal、Keeta；一位[创始成员的动态](https://www.linkedin.com/in/fan-lucas-wu/)写「前 TikTok 产品负责人」；他的[职位描述](https://www.linkedin.com/in/fan-lucas-wu/details/experience/)写「来自顶级 AI 实验室的前高管」；[岗位描述](https://join.machinepulse.ai/api/jobs)写字节跳动。TikTok 和字节跳动是同一集团，但「顶级 AI 实验室」是另一种说法，而且没有任何一处点名到人。
+- **Nanqun Chen 的当前任职：**他的[主页](https://www.linkedin.com/in/nanqunchen/details/experience/)把阶跃星辰 Lead Product Manager 列为 2024 年 4 月至今，与 2025 年 12 月至今的 MachinePulse 联合创始人并列（访问于 2026-07-29）。是否只是某一条没有结束标注，从主页上无法判断。
+- **成立时间：**三位管理层主页把各自的 MachinePulse 职位起点标在 2025 年 12 月和 2026 年 1 月，GitHub 组织创建于 2025-11-11；没有任何一处说明公司本身何时成立或注册。
 - **国别与实际运营重心：**一条[第三方社交帖](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay)把 MachinePulse 说成「US-based」；法律实体是新加坡 Pte. Ltd.，[GitHub 组织](https://github.com/machinepulse-ai)标注新加坡；而 20 个在招岗位中有 18 个定位在上海（[jobs API](https://join.machinepulse.ai/api/jobs)）。三个来源指向三个国家 —— 单独看都不算错，但只有招聘数据能说明活儿实际在哪里干。
 - **Karpo 的形态：**[2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)称 Karpo「available on App and iMessage」；[FAQ](https://app.karpo.ai/faqs) 和[工作方式](https://app.karpo.ai/how-it-works)页面只描述了 iMessage 路径，也没有找到 App Store 条目。一个涵盖 Swift、App Store 提审和 TestFlight 分发的 [iOS 开发实习岗位](https://join.machinepulse.ai/api/jobs)表明原生客户端正在开发中 —— 这与「App 尚未发布」一致，而不是说明哪一边的页面写错了。
 - **Karpo 的能力：**[工作方式页面](https://app.karpo.ai/how-it-works)用的是设想式措辞来描述订票、订行程和「life admin」，而[新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)则把四家具名合作方的集成预订说成已经上线。
@@ -249,6 +295,9 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 - World2Agent 全部代码为 Apache 2.0，Shotwright 为 MIT；协议、SDK、插件、示例 sensor 和注册表 CLI 都公开发布。
 - 招聘信息是这家公司信息密度最高的公开来源，且远超其他 —— 它确立了实际办公地点、技术栈、自研后训练团队和未发布 iOS 客户端的存在，以及商业方向，而这些在任何产品页面或新闻稿上都看不到。同时它在不执行 JavaScript 的情况下不可见，因为页面是从 `/api/jobs` 客户端渲染的。
 - 招聘明显偏向市场侧：20 个岗位中 10 个属于产品与增长，且多数是海外社媒、达人营销、投放和增长，研发只有 8 个（[jobs API](https://join.machinepulse.ai/api/jobs)）。
+- LinkedIn 上还有一条招聘线，不在招聘站的接口里：一位创始成员发布了纽约现场办公的 Partnership Development Manager、Social Media & Community Operations 和 Community & Events Operations 岗位（[Lucas Wu 的 LinkedIn](https://www.linkedin.com/in/fan-lucas-wu/)；访问于 2026-07-29）。而 `/api/jobs` 里只有一个纽约岗位。
+- 一位创始成员称 Karpo 是「iMessage 上增长最快的应用之一」（[LinkedIn](https://www.linkedin.com/in/fan-lucas-wu/)）；这是公司方说法，没有给出支撑数字。
+- 公司跑在自己无法掌控的第三方消息基础设施上：Karpo 的整条交付链路依赖 [Linq](https://linqapp.com/)，再往下依赖 Apple 的 iMessage。
 
 ---
 
@@ -284,7 +333,8 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 
 - [80aj.com —— World2Agent 报道，2026-04-29（中文）](https://www.80aj.com/2026/04/29/ai-agent-realtime-perception/)
 - [Threads —— 关于 Karpo 赞助活动的第三方帖子](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay)
-- [LinkedIn —— Lucas Wu](https://sg.linkedin.com/in/fan-lucas-wu)
+- LinkedIn 个人主页（需登录态）：[Leah Wang](https://www.linkedin.com/in/leah-wang-8676903a8/)、[Nanqun Chen](https://www.linkedin.com/in/nanqunchen/)、[Lucas Wu](https://www.linkedin.com/in/fan-lucas-wu/) · 履历页：[Nanqun Chen](https://www.linkedin.com/in/nanqunchen/details/experience/)、[Lucas Wu](https://www.linkedin.com/in/fan-lucas-wu/details/experience/)
+- [Linq —— Karpo 在 iMessage 上所依托的消息基础设施](https://linqapp.com/) · [引用 MachinePulse 的社区页面](https://linqapp.com/community)
 - 以 Machinepulse Pte. Ltd. 为所有人的 USPTO 商标条目：[KARPO 99653628](https://uspto.report/TM/99653628)、[KARPO 99653232](https://uspto.report/TM/99653232)、[K 99653634](https://uspto.report/TM/99653634)、[MACHINEPULSE 99653745](https://uspto.report/TM/99653745)
 
 **无关的 MachinePulse（印度）资料 —— 列出以防混淆**
