@@ -13,6 +13,7 @@
 | Jerry | 车险经纪与汽车持有应用 | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
 | MachinePulse | 主动式 AI 智能体 —— 消费端、协议与媒体制作 | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
 | NETSTARS | 支付 | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
+| Notta | AI 转写与会议记录 | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Tensor Energy | 可再生能源与储能运营 | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
 | Verdent | 智能体编程工具 | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
