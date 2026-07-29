@@ -261,10 +261,18 @@ Where to look:
 
 | Region | Boards |
 |---|---|
-| Japan | The company's own careers site (often Notion, Herp, or Ashby), [TokyoDev](https://www.tokyodev.com) (English-speaking roles), [Wantedly](https://www.wantedly.com), [Green](https://www.green-japan.com), [Findy](https://findy-code.io), [LAPRAS](https://lapras.com) |
-| Global | LinkedIn, the company's own site, Y Combinator's job board for YC companies |
+| Japan | The company's own careers site (often Notion, Herp, or Ashby), [TokyoDev](https://www.tokyodev.com) and [Japan Dev](https://japan-dev.com) (English-speaking roles), [Wantedly](https://www.wantedly.com), [Green](https://www.green-japan.com), [Findy](https://findy-code.io), [LAPRAS](https://lapras.com) |
+| Chinese-speaking teams | [V2EX 酷工作](https://www.v2ex.com/go/jobs); the 谁在招人 board in [ruanyf/weekly](https://github.com/ruanyf/weekly) ([currently issue #10517](https://github.com/ruanyf/weekly/issues/10517); the board is rotated, so check the repository README for the active one), whose entries are carried in the Friday weekly |
+| Global | LinkedIn, the company's own site, Y Combinator's job board for YC companies, the monthly [Ask HN: Who is hiring?](https://news.ycombinator.com/submitted?id=whoishiring) thread (searchable and archived at [hnhiring.com](https://hnhiring.com)) |
 
 Prefer the company's own page — aggregators paraphrase, and some republish stale listings.
+
+Two cases where a board is the only evidence available:
+
+- **English-facing boards** (TokyoDev, Japan Dev) publish the details Japanese-language postings often omit — remote and office-day policy, visa sponsorship, the language actually used at work, and sometimes a salary range. Their company profiles are undated and continuously edited, so record them as `Undated; accessed YYYY-MM-DD` and expect figures such as total funding to lag.
+- **Community boards** (V2EX, Hacker News and similar) are sometimes the only place a company hires publicly, particularly for early-stage teams with no careers page. A posting there may be the sole public description of the stack and working conditions; note who posted it, under which company name, and the thread date, since the name used can differ from the current brand.
+
+Recurring threads such as *Ask HN: Who is hiring?* and the 谁在招人 board have a property the other boards lack: every entry is written by the company, carries the date of the thread or weekly issue, and stays archived. That turns them into a dated series — comparing a company's entries across issues shows when a stack, a remote policy, or a salary range changed, which is otherwise hard to establish from continuously edited pages. In the ruanyf/weekly case the archive is a git repository, so the published issue that carried an entry is itself dated and diffable.
 
 ### 5. Founders and team
 

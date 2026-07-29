@@ -254,10 +254,18 @@ companies/
 
 | 地区 | 招聘平台 |
 |---|---|
-| 日本 | 公司自己的招聘网站（常见 Notion、Herp 或 Ashby）、[TokyoDev](https://www.tokyodev.com)（英语职位）、[Wantedly](https://www.wantedly.com)、[Green](https://www.green-japan.com)、[Findy](https://findy-code.io)、[LAPRAS](https://lapras.com) |
-| 全球 | LinkedIn、公司官网、Y Combinator 招聘网站 |
+| 日本 | 公司自己的招聘网站（常见 Notion、Herp 或 Ashby）、[TokyoDev](https://www.tokyodev.com) 与 [Japan Dev](https://japan-dev.com)（英语职位）、[Wantedly](https://www.wantedly.com)、[Green](https://www.green-japan.com)、[Findy](https://findy-code.io)、[LAPRAS](https://lapras.com) |
+| 中文团队 | [V2EX 酷工作](https://www.v2ex.com/go/jobs)；[ruanyf/weekly](https://github.com/ruanyf/weekly) 的《谁在招人》（[当前为 issue #10517](https://github.com/ruanyf/weekly/issues/10517)，该帖会轮换，以仓库 README 中的链接为准），其条目会收入每周五的周刊 |
+| 全球 | LinkedIn、公司官网、Y Combinator 招聘网站、每月一期的 [Ask HN: Who is hiring?](https://news.ycombinator.com/submitted?id=whoishiring)（可在 [hnhiring.com](https://hnhiring.com) 检索与回溯） |
 
 优先使用公司自己的页面。聚合网站会改写内容，有些还会重新发布已经过时的职位。
+
+有两类情况，招聘平台是唯一可得的证据：
+
+- **面向英语求职者的平台**（TokyoDev、Japan Dev）会写出日语招聘信息通常省略的内容：远程与到岗政策、签证支持、实际工作语言，有时还有薪资区间。它们的公司页面没有发布日期且持续编辑，应记为 `Undated; accessed YYYY-MM-DD`，并预期累计融资等数字会滞后。
+- **社区论坛**（V2EX、Hacker News 等）有时是公司唯一公开招聘的地方，没有招聘页的早期团队尤其如此。这类帖子可能是技术栈和工作条件的唯一公开描述；应记录发帖人、所用公司名称和发帖日期，因为帖子使用的名称可能与当前品牌不同。
+
+*Ask HN: Who is hiring?* 与《谁在招人》这类固定帖有其他平台没有的性质：每条都由公司自己撰写，带有该期帖子或周刊的日期，并且长期存档。这使它成为一组带日期的序列——比对同一家公司在不同期的条目，可以看出技术栈、远程政策或薪资区间是何时变化的，而这一点在持续编辑、没有日期的页面上很难确定。ruanyf/weekly 的存档本身是一个 git 仓库，收录该条目的那一期周刊自带日期，也可以直接比对差异。
 
 ### 5. 创始人与团队
 
