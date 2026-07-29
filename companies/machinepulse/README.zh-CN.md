@@ -11,9 +11,10 @@
 MachinePulse Pte. Ltd. 是一家在新加坡注册的公司，做它自己所称的「Proactive AI Agents」（主动式 AI 智能体）（[招聘页面](https://join.machinepulse.ai/)；无日期，访问于 2026-07-29）。公司官网只有一页占位内容，实质内容分散在三个独立产品上：**Karpo**，一个活在 iMessage 里、在六个城市推荐场所和活动的免费消费级 AI；**World2Agent（W2A）**，一个把现实世界信号喂给 AI 智能体的 Apache-2.0 协议；以及 **Shotwright**，一个在 Windows 容器里驱动 Adobe After Effects 的 MIT 许可智能体。
 
 - Karpo 于 2026-03-09 公开发布，截至 [2026-07-28](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html) 自报已交付 52 万多条推荐、400 多万次对话，以及「接近 40% 的即时正面响应率」。
-- 唯一找到的融资表述在公司自己的[招聘页面](https://join.machinepulse.ai/)上：「backed by top-tier USD funds, valued at nearly $100 million」（获顶级美元基金支持，估值接近 1 亿美元）。任何地方都没有公布过轮次、投资方或日期。
+- 唯一找到的融资表述出自公司自己，在[招聘页面](https://join.machinepulse.ai/)和某个岗位正文中重复出现：「backed by top-tier USD funds, with a valuation approaching $100 million」（获顶级美元基金支持，估值接近 1 亿美元）。任何地方都没有公布过轮次、投资方或日期。
+- 招聘站列出 20 个在招岗位（[jobs API](https://join.machinepulse.ai/api/jobs)；访问于 2026-07-29）。其中 18 个定位在**上海**，1 个在纽约；所有岗位的可选地点都是新加坡、上海、纽约、加州湾区。工程岗位描述了 Go 与 Python 后端、跑在 AWS/GCP/Azure 上的 Kubernetes、一个 iOS 客户端，以及一个自研的 LLM 后训练团队。
 - [GitHub 组织](https://github.com/machinepulse-ai)创建于 2025-11-11，标注地点为新加坡，有 6 个公开仓库；[world2agent](https://github.com/machinepulse-ai/world2agent) 在 2026-07-29 访问时有 1,245 个 star、40 个 fork。
-- 查阅的资料中没有任何一处点出创始人或 CEO。能确认姓名的员工只有新闻稿中被引用的一位增长负责人和 LinkedIn 上的一位工程师。
+- 查阅的资料中没有任何一处点出创始人或 CEO。能确认姓名的员工只有新闻稿中被引用的一位增长负责人和 LinkedIn 上的一位工程师；一则设计实习岗位提到「有字节跳动背景的资深从业者」。
 - **重名问题：**另有一家完全无关的工业物联网公司也叫 MachinePulse（孟买，`machinepulse.com`），它占据了搜索结果和创业数据库。Crunchbase、Tracxn、GetLatka 上「MachinePulse」的条目描述的是那一家，不是这一家。
 
 ---
@@ -24,6 +25,7 @@ MachinePulse Pte. Ltd. 是一家在新加坡注册的公司，做它自己所称
 |---|---|---|
 | 法定名称 | MachinePulse Pte. Ltd. | [官网页脚](https://www.machinepulse.ai/)、[Karpo 关于页面](https://app.karpo.ai/about-us) |
 | 注册地 | 新加坡（Pte. Ltd. 是新加坡私人有限公司的形式） | 由实体名称推断；未与 ACRA 核对 |
+| 实际办公地点 | 20 个在招岗位中 18 个定位在上海，1 个在纽约；所有岗位的可选地点为新加坡、上海、纽约、加州湾区 | [jobs API](https://join.machinepulse.ai/api/jobs)；访问于 2026-07-29 |
 | 公开品牌 | MachinePulse；产品品牌为 Karpo、World2Agent、Shotwright | [官网](https://www.machinepulse.ai/) |
 | 口号 | 「The Very Pulse of the Machine」；「building something PROACTIVE」 | [官网](https://www.machinepulse.ai/) |
 | 自述方向 | 「Proactive AI Agents」与人机交互的演进 | [招聘页面](https://join.machinepulse.ai/) |
@@ -103,6 +105,14 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 
 新闻稿没有说明这些预订集成属于商业协议、联盟分成还是公开 API 调用。
 
+### 公司陈述的计划
+
+关于商业方向最清楚的陈述出自岗位描述，而不是任何公告。[Senior Manager, Commercial Operations 岗位](https://join.machinepulse.ai/api/jobs)（创建于 2026-05-10）把职责定为搭建「一个北美本地生活平台」：建立供给侧运营体系，并独立推动外部合作。岗位列出了希望候选人具备哪类平台的经验 —— Yelp、OpenTable、Resy、Booking.com、Google Places、Eventbrite、SeatGeek —— 并要求 3 年以上北美本地生活、旅游或酒店行业经验。
+
+其他岗位把目标市场定义为北美城市（主要是纽约和洛杉矶），并把日韩市场列为次要的文化重点；获客渠道为 Instagram、TikTok、Reddit、Discord、YouTube、X、Google 与 Meta 投放，以及 SEO 和 ASO。
+
+[AI Product Manager](https://join.machinepulse.ai/api/jobs) 等多个岗位把产品描述为处于「0 到 1」阶段。
+
 ---
 
 ## 创始人
@@ -116,13 +126,17 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 | Titus Zhai | MachinePulse 增长负责人（Head of Growth） | [2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)中被引用 |
 | Lucas Wu | 「Building proactive AI @MachinePulse」；所在地新加坡 | [LinkedIn](https://sg.linkedin.com/in/fan-lucas-wu)；该主页在 2026-07-29 抓取时返回 HTTP 999，只能读到搜索结果里的标题行 |
 
+关于团队的两处表述出现在岗位描述里，也是找到的唯一关于团队构成的说法：UI/UX 设计实习岗位承诺「与有字节跳动背景的资深从业者并肩工作」并获得指导，商业运营岗位承诺「可直接接触创始团队」（[jobs API](https://join.machinepulse.ai/api/jobs)；访问于 2026-07-29）。两处都没有点名任何人。
+
 ---
 
 ## 融资
 
 公司、任何投资方以及查到的任何媒体报道都没有公布过融资轮次（检索于 2026-07-29）。
 
-唯一找到的融资表述在公司自己的[招聘页面](https://join.machinepulse.ai/)（无日期，访问于 2026-07-29）上，称 MachinePulse 是一家「global AI startup」，「backed by top-tier USD funds, valued at nearly $100 million」。没有点名任何投资方，没有轮次标签或金额，也没有日期。没有任何旁证：新加坡实体在 Crunchbase 和 Tracxn 上都没有条目，也找不到任何提及 MachinePulse 融资的新闻稿、投资方组合页面或报道。
+这条融资表述出现了两次，都在公司自己的招聘文案里。[招聘页面](https://join.machinepulse.ai/)（无日期，访问于 2026-07-29）称 MachinePulse 是一家「global AI startup」，「backed by top-tier USD funds, valued at nearly $100 million」。[Senior Manager, Commercial Operations 岗位描述](https://join.machinepulse.ai/api/jobs)（创建于 2026-05-10）重复为「a global AI startup backed by top-tier USD funds, with a valuation approaching $100 million」，并在待遇部分写「Backed by premier USD funds with a valuation approaching $100M and meaningful equity upside」。
+
+两处都没有点名任何投资方，没有轮次标签或金额，也没有日期。没有任何旁证：新加坡实体在 Crunchbase 和 Tracxn 上都没有条目，也找不到任何提及 MachinePulse 融资的新闻稿、投资方组合页面或报道。同一岗位要求候选人具备「创业公司经验或在早期公司（A 轮及更早）工作过」，这描述的是候选人背景，而非公司自身所处阶段的表述。
 
 ---
 
@@ -141,7 +155,26 @@ uspto.report 的检索结果显示，以「Machinepulse Pte. Ltd.」为所有人
 | Karpo 交付渠道 | 通过一个美国号码（+1 415 886 0326）走 Apple iMessage | 已确认 —— [工作方式](https://app.karpo.ai/how-it-works) |
 | Karpo Web 站点 | `/scenarios/`、`/city-guides/`、`/explore/` 下的服务端渲染页面 | 已确认 —— [sitemap](https://app.karpo.ai/sitemap.xml) |
 
-Karpo 没有披露任何模型供应商、云厂商、数据库或推理栈。Karpo 和 MachinePulse 都没有发布安全页面、子处理方清单或数据留存政策；`app.karpo.ai/terms` 和 `app.karpo.ai/privacy` 在 2026-07-29 抓取时都返回 HTTP 404，尽管 Karpo 落地页上有指向服务条款和隐私声明的链接。
+以下内容来自[岗位描述](https://join.machinepulse.ai/api/jobs)（访问于 2026-07-29），属于招聘证据，不等于生产环境已在使用。硬性要求的语言可以支撑推断；只出现在加分项里的则不能。
+
+| 项目 | 详情 | 出现位置 |
+|---|---|---|
+| 后端语言 | Go 和 Python，作为两个描述几乎完全相同的资深岗位并列招聘；另有一个专门面向 Agent 系统的 Golang 岗位 | 硬性要求 |
+| 数据存储 | PostgreSQL、Redis、消息队列、对象存储 | 硬性要求 |
+| 编排与云 | Kubernetes 集群部署与调度；AWS、GCP、Azure 至少其一及其托管服务（ECS、EKS、GKE） | 硬性要求 |
+| 基础设施工具 | Terraform、Ansible、Prometheus/Grafana、CI/CD 流水线、灰度发布与回滚 | 硬性要求 |
+| 服务网格 | Istio，在流量与网络治理工作中作为示例点名 | 硬性要求（作为示例） |
+| 可观测性 | 日志、指标、分布式追踪；容量规划与故障演练 | 硬性要求 |
+| ML 训练栈 | PyTorch；HuggingFace、DeepSpeed、Megatron 至少其一；SFT、DPO、GRPO、PPO、奖励建模、知识蒸馏 | 硬性要求 |
+| iOS 客户端 | Swift 配合 UIKit 和/或 SwiftUI；MVC/MVVM；Swift Package Manager、Tuist 或 CocoaPods；App Store 与 TestFlight 分发 | 硬性要求 / 加分项 |
+| Web 前端 | JavaScript/TypeScript、HTML5、CSS3、React 或 Vue | 硬性要求（实习岗） |
+| Agent 管道 | MCP 协议管道开发、prompt 工程、工具调用、上下文管理 | 硬性要求（实习岗） |
+| 检索 | 向量数据库与检索框架；召回优化、排序、评估 | 仅加分项 |
+| 多云 | 混合云、多地域多集群 Kubernetes 网络治理 | 仅加分项 |
+
+由此可以得出两条其他资料没有确立的事实。公司有**自研的 LLM 后训练工作** —— ML Algorithm Engineer 岗位涵盖对齐与蒸馏，把大模型的推理与偏好能力迁移到小模型上，用于「意图识别、个性化回复生成和数字人格」—— 所以 MachinePulse 并非纯粹调用第三方模型 API。以及公司在做**原生 iOS 客户端**，这一点产品页面上没有提过。
+
+在面向产品的资料中，没有任何一处点名 Karpo 使用的模型供应商或云厂商。Karpo 和 MachinePulse 都没有发布安全页面、子处理方清单或数据留存政策；`app.karpo.ai/terms` 和 `app.karpo.ai/privacy` 在 2026-07-29 抓取时都返回 HTTP 404，尽管 Karpo 落地页上有指向服务条款和隐私声明的链接。
 
 ### 系统
 
@@ -153,17 +186,33 @@ Karpo 没有披露任何模型供应商、云厂商、数据库或推理栈。Ka
 | SensorHub 注册表 | 已发布 sensor 的目录，带下载量，由 postpublish CLI 自动注册 | [SensorHub](https://world2agent.ai/hub)、[notify-hub 仓库](https://github.com/machinepulse-ai/world2agent-notify-hub) |
 | Shotwright AE 运行时 | 容器化的 After Effects，由智能体编写的 JSX 驱动，nexrender 无头渲染，成片以 mp4 流回 | [README](https://github.com/machinepulse-ai/shotwright) |
 
+### 招聘所需技术背景
+
+据[岗位描述](https://join.machinepulse.ai/api/jobs)（访问于 2026-07-29），候选人被期待具备的既往问题经验：
+
+- **后端（Go / Python，资深）：**生产环境的并发与性能调优；一致性保证、缓存策略、限流与降级；灰度发布、回滚、服务指标解读与容量规划。加分：生产级 AI 应用、检索与排序评估。
+- **后端（Go，Agent 方向）：**设计复杂业务系统并在可靠性、性能、成本与交付速度之间做权衡；工具接入、权限控制、任务状态管理、异常处理与分阶段发布。加分：工作流引擎、任务平台、故障管理。
+- **基础设施（SRE）：**3–5 年基础设施或运维经验；Kubernetes 部署、管理与调度；流量调度与网络治理；推动 IaC 落地。加分：云架构师认证、服务网格落地、开源贡献。
+- **ML（后训练）：**硕士及以上；Transformer 与 GPT 类架构；后训练与对齐的实操经验；把大模型能力迁移到小模型并上线。加分：对 LLaMA、Qwen、InternLM、Mistral、vLLM 或对齐工具链的贡献；论文发表；算法竞赛背景（AMC、ICPC、NOI、IOI）。
+- **产品与内容岗位：**反复要求有真实的 LLM 项目实操 —— Agent Content 岗位明确排除经验仅停留在「把 ChatGPT 当日常工具用」的候选人 —— 以及对西方（主要是纽约/洛杉矶）或日韩生活方式的跨文化理解。
+
 ### 工作条件
 
-[招聘页面](https://join.machinepulse.ai/)（无日期，访问于 2026-07-29）是一个申请表单，没有列出任何在招岗位。社招投递 `ahr@machinepulse.ai`，实习投递 `intern@machinepulse.ai`，需在邮件主题写明岗位。表单要求填写期望地点、姓名、电话、邮箱和简历，另有可选的微信号、推荐码和作品集字段。
+招聘站的岗位列表由客户端从 `https://join.machinepulse.ai/api/jobs` 加载；服务端返回的 HTML 里只有申请表单，因此不执行 JavaScript 的工具看不到这些岗位。截至 2026-07-29，该接口返回 20 个岗位，全部标记为在招：12 个全职、8 个实习，分布在研发（8）、产品与增长（10）、行政（1），另有 1 个未设部门。创建时间集中在 2026-01-29（15 个），此后陆续新增于 2026-01-30、2026-02-04、2026-03-01、2026-05-10 和 2026-07-25。
 
 | 项目 | 详情 | 来源 |
 |---|---|---|
-| 列出的在招岗位 | 无 | [招聘页面](https://join.machinepulse.ai/) |
-| 提供的工作地点 | 未说明；表单反过来问申请人期望地点 | [招聘页面](https://join.machinepulse.ai/) |
-| 工作语言 | 未说明。全站使用英文；表单有可选的微信号字段，Shotwright 仓库带简体中文 README | [招聘页面](https://join.machinepulse.ai/)、[Shotwright](https://github.com/machinepulse-ai/shotwright) |
-| 薪资、远程政策、签证、福利 | 未公布 | [招聘页面](https://join.machinepulse.ai/) |
-| 应届 / 实习 | 明确设了实习专用投递邮箱 | [招聘页面](https://join.machinepulse.ai/) |
+| 在招岗位 | 20 个：12 个全职、8 个实习 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 工作地点 | 18 个标注上海，1 个纽约（Senior Backend Engineer, Go），2 个未设；所有岗位可选新加坡 / 上海 / 纽约 / 加州湾区 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 工作语言 | 没有公司层面的明确政策。岗位以英文撰写；多个产品岗位要求「英语为工作语言」；申请材料鼓励附小红书、抖音、B 站链接，申请表单有微信号字段 | [jobs API](https://join.machinepulse.ai/api/jobs)、[申请表单](https://join.machinepulse.ai/) |
+| 远程政策 | UI/UX Designer 岗位提供「弹性工作安排和阶段性远程」；实习要求每周至少 4 天到岗 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 股权 | 「有竞争力的薪资、绩效奖金和股权激励」（设计、产品岗）；「创始团队席位」和「可观的股权上行空间」（商业运营岗） | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 薪资 | 所有岗位均未公布 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 实习 | 20 个岗位中占 8 个；3–6 个月，表现优异可转正；其中一个后端实习限定 2026/2027 届 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 自述文化 | 「扁平」「无层级」「决策链极短」「可直接接触创始团队」；鼓励使用 AI 编程工具并提供「充足的 token 支持」 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 投递方式 | `ahr@machinepulse.ai`（全职）或 `intern@machinepulse.ai`（实习），主题写明岗位；或站内表单。部分岗位邀请提交 1–3 分钟视频自荐和社交主页链接 | [申请表单](https://join.machinepulse.ai/)、[jobs API](https://join.machinepulse.ai/api/jobs) |
+| 面试流程 | 除商业运营岗提到节奏快、不确定性高外没有描述；未公布面试轮次 | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| 签证、福利、流动率 | 未公布 | [jobs API](https://join.machinepulse.ai/api/jobs) |
 
 ---
 
@@ -171,23 +220,24 @@ Karpo 没有披露任何模型供应商、云厂商、数据库或推理栈。Ka
 
 ### 未公开披露
 
-以下结论的检索范围（2026-07-29）：machinepulse.ai 及其上全部链接；join.machinepulse.ai；world2agent.ai 含 SensorHub；app.karpo.ai 含完整 sitemap、FAQ、关于、工作方式和 buzz 页面；通过 REST API 查询 GitHub 组织、其六个仓库及成员页面；world2agent 的 README 和架构文档；Shotwright 的 README；以中英文检索「MachinePulse」「MachinePulse Pte」「Karpo」「Karpo AI」「World2Agent」；Crunchbase、Tracxn 和 GetLatka；uspto.report 商标检索结果；以及检索 Karpo 的 App Store 条目。
+以下结论的检索范围（2026-07-29）：machinepulse.ai 及其上全部链接；用浏览器渲染 join.machinepulse.ai，并读取其 `/api/jobs` 接口和全部 20 条岗位记录；world2agent.ai 含 SensorHub；app.karpo.ai 含完整 sitemap、FAQ、关于、工作方式和 buzz 页面；通过 REST API 查询 GitHub 组织、其六个仓库及成员页面；world2agent 的 README 和架构文档；Shotwright 的 README；以中英文检索「MachinePulse」「MachinePulse Pte」「Karpo」「Karpo AI」「World2Agent」；Crunchbase、Tracxn 和 GetLatka；uspto.report 商标检索结果；以及检索 Karpo 的 App Store 条目。
 
 - 任何地方都没有点出创始人或 CEO。所有站点都没有团队页面。
 - 没有找到任何融资轮次、投资方、估值日期，也没有任何数据库条目能佐证招聘页面上的说法。
 - 没有取得办公地址、注册号或 ACRA 记录。新加坡注册地是由「Pte. Ltd.」后缀推断的，未与登记机关核对；未执行 BizFile 实体查询。
 - 任何产品都没有已公开的收入模式。
 - `app.karpo.ai/terms` 和 `app.karpo.ai/privacy` 虽被落地页链接，但都返回 HTTP 404。Karpo 和 MachinePulse 都没有发布安全页面、子处理方清单、数据留存说明或任何认证。
-- 没有披露模型供应商或云厂商。
-- 没有找到在招职位、薪资区间、远程政策或签证信息。
+- 没有点名任何模型供应商。云厂商只被 SRE 岗位收窄到「AWS、GCP 或 Azure」，并未说明实际使用哪一家。
+- 20 个岗位都没有公布薪资区间，也没有找到签证、福利或人员流动率信息。
+- 没有任何一个具名个人被对应到岗位、部门或汇报关系上；岗位描述提到「创始团队」但从不点名。
 - 没有找到主流科技媒体的报道 —— 唯一找到的新闻是 2026-07-28 的一篇稿件，经 openPR 分发并被一批聚合站点转载，此外只有一篇关于 World2Agent 的中文博客。
 - GitHub 组织没有公开成员，因此无法据此识别具体贡献者。
 
 ### 不同来源之间的不一致
 
 - **是哪一个 MachinePulse：**[Crunchbase](https://www.crunchbase.com/organization/machinepulse)、[Tracxn](https://tracxn.com/d/companies/machine-pulse/__T2EbVVSjXHxNVi2tptAU2PdQE2I7bYoG-0V2Qt1iFD8) 和 [GetLatka](https://getlatka.com/companies/machinepulse) 对「MachinePulse」返回的是孟买那家无关的工业物联网公司。它们的创始人、收入、人数和融资状态字段都不描述新加坡实体。
-- **国别：**一条[第三方社交帖](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay)把 MachinePulse 说成「US-based」，而法律实体是新加坡 Pte. Ltd.，[GitHub 组织](https://github.com/machinepulse-ai)标注的也是新加坡。Karpo 的 iMessage 号码是美国号码，新闻稿的发稿地也不是新加坡。
-- **Karpo 的形态：**[2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)称 Karpo「available on App and iMessage」；[FAQ](https://app.karpo.ai/faqs) 和[工作方式](https://app.karpo.ai/how-it-works)页面只描述了 iMessage 路径，也没有找到 App Store 条目。
+- **国别与实际运营重心：**一条[第三方社交帖](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay)把 MachinePulse 说成「US-based」；法律实体是新加坡 Pte. Ltd.，[GitHub 组织](https://github.com/machinepulse-ai)标注新加坡；而 20 个在招岗位中有 18 个定位在上海（[jobs API](https://join.machinepulse.ai/api/jobs)）。三个来源指向三个国家 —— 单独看都不算错，但只有招聘数据能说明活儿实际在哪里干。
+- **Karpo 的形态：**[2026-07-28 新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)称 Karpo「available on App and iMessage」；[FAQ](https://app.karpo.ai/faqs) 和[工作方式](https://app.karpo.ai/how-it-works)页面只描述了 iMessage 路径，也没有找到 App Store 条目。一个涵盖 Swift、App Store 提审和 TestFlight 分发的 [iOS 开发实习岗位](https://join.machinepulse.ai/api/jobs)表明原生客户端正在开发中 —— 这与「App 尚未发布」一致，而不是说明哪一边的页面写错了。
 - **Karpo 的能力：**[工作方式页面](https://app.karpo.ai/how-it-works)用的是设想式措辞来描述订票、订行程和「life admin」，而[新闻稿](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html)则把四家具名合作方的集成预订说成已经上线。
 
 ### 其他
@@ -197,6 +247,8 @@ Karpo 没有披露任何模型供应商、云厂商、数据库或推理栈。Ka
 - 2026-07-28 那篇稿件经 [openPR](https://www.openpr.com/news/4589478/karpo-crosses-half-a-million-personalized-recommendations) 分发，并被大量近乎相同的地方新闻聚合域名原样转载。这是一篇稿件，不是多家独立报道。
 - 一条[第三方社交帖](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay)称 Karpo 会在觉得用户的计划有意思时，赞助其外出消费、每人最高 300 美元。没有找到公司自己发布的这个活动的出处。
 - World2Agent 全部代码为 Apache 2.0，Shotwright 为 MIT；协议、SDK、插件、示例 sensor 和注册表 CLI 都公开发布。
+- 招聘信息是这家公司信息密度最高的公开来源，且远超其他 —— 它确立了实际办公地点、技术栈、自研后训练团队和未发布 iOS 客户端的存在，以及商业方向，而这些在任何产品页面或新闻稿上都看不到。同时它在不执行 JavaScript 的情况下不可见，因为页面是从 `/api/jobs` 客户端渲染的。
+- 招聘明显偏向市场侧：20 个岗位中 10 个属于产品与增长，且多数是海外社媒、达人营销、投放和增长，研发只有 8 个（[jobs API](https://join.machinepulse.ai/api/jobs)）。
 
 ---
 
@@ -205,7 +257,7 @@ Karpo 没有披露任何模型供应商、云厂商、数据库或推理栈。Ka
 **官方**
 
 - [MachinePulse —— 公司官网](https://www.machinepulse.ai/)
-- [招聘](https://join.machinepulse.ai/)
+- [招聘](https://join.machinepulse.ai/) · [jobs API —— 页面渲染所用的 20 条岗位记录](https://join.machinepulse.ai/api/jobs)
 - [LinkedIn](https://www.linkedin.com/company/machinepulseai/about/)
 - [X —— @MachinePulse_AI](https://x.com/MachinePulse_AI)
 - Karpo

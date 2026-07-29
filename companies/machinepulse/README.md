@@ -10,9 +10,10 @@
 MachinePulse Pte. Ltd. is a Singapore-registered company building what it calls "Proactive AI Agents" ([careers page](https://join.machinepulse.ai/); Undated; accessed 2026-07-29). Its corporate site is a one-page holder; the substance sits in three separate properties: **Karpo**, a free consumer AI that lives in iMessage and recommends places and events in six cities; **World2Agent (W2A)**, an Apache-2.0 protocol for feeding real-world signals into AI agents; and **Shotwright**, an MIT-licensed agent that drives Adobe After Effects inside a Windows container.
 
 - Karpo launched publicly on 2026-03-09 and reported 520,000+ recommendations delivered, 4M+ conversations, and a "near-40% immediate positive response rate" as of [2026-07-28](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html).
-- The only funding statement found is on the company's own [careers page](https://join.machinepulse.ai/): "backed by top-tier USD funds, valued at nearly $100 million". No round, investor, or date has been announced anywhere found.
+- The only funding statement found is the company's own, repeated on the [careers page](https://join.machinepulse.ai/) and inside a job description: "backed by top-tier USD funds, with a valuation approaching $100 million". No round, investor, or date has been announced anywhere found.
+- The careers site lists 20 active roles ([jobs API](https://join.machinepulse.ai/api/jobs); accessed 2026-07-29). 18 are located in **Shanghai**, one in New York; every role offers Singapore, Shanghai, New York, and California Bay Area as location options. The engineering roles describe Go and Python backends, Kubernetes on AWS/GCP/Azure, an iOS client, and an in-house LLM post-training team.
 - The [GitHub organisation](https://github.com/machinepulse-ai) was created 2025-11-11, lists Singapore, and holds 6 public repositories; [world2agent](https://github.com/machinepulse-ai/world2agent) had 1,245 stars and 40 forks when accessed 2026-07-29.
-- No founder or CEO is named in any source reviewed. The only staff identified are a Head of Growth quoted in a press release and one engineer on LinkedIn.
+- No founder or CEO is named in any source reviewed. The only staff identified are a Head of Growth quoted in a press release and one engineer on LinkedIn; a design internship posting refers to "senior practitioners with ByteDance backgrounds".
 - **Name collision:** an unrelated industrial-IoT company also called MachinePulse (Mumbai, `machinepulse.com`) dominates search results and startup databases. Crunchbase, Tracxn, and GetLatka entries for "MachinePulse" describe that company, not this one.
 
 ---
@@ -23,6 +24,7 @@ MachinePulse Pte. Ltd. is a Singapore-registered company building what it calls 
 |---|---|---|
 | Legal name | MachinePulse Pte. Ltd. | [site footer](https://www.machinepulse.ai/), [Karpo about page](https://app.karpo.ai/about-us) |
 | Jurisdiction | Singapore (Pte. Ltd. is the Singapore private-limited form) | inferred from the entity name; not verified against ACRA |
+| Operating locations | 18 of 20 open roles are located in Shanghai, one in New York; all roles offer Singapore, Shanghai, New York, and California Bay Area as options | [jobs API](https://join.machinepulse.ai/api/jobs); accessed 2026-07-29 |
 | Public brand | MachinePulse; products branded Karpo, World2Agent, Shotwright | [site](https://www.machinepulse.ai/) |
 | Tagline | "The Very Pulse of the Machine"; "building something PROACTIVE" | [site](https://www.machinepulse.ai/) |
 | Stated focus | "Proactive AI Agents" and the evolution of human-machine interaction | [careers page](https://join.machinepulse.ai/) |
@@ -102,6 +104,14 @@ The 4M+ conversations figure sits against 520,000+ recommendations over the same
 
 The release does not state whether the booking integrations are commercial agreements, affiliate arrangements, or public API usage.
 
+### Stated plans
+
+The clearest statement of commercial direction is in a job description rather than any announcement. The [Senior Manager, Commercial Operations posting](https://join.machinepulse.ai/api/jobs) (created 2026-05-10) sets the remit as building "a North American Local Life Platform": constructing a supply-side operations system and independently driving external partnerships. It names the platform types the company wants that experience from — Yelp, OpenTable, Resy, Booking.com, Google Places, Eventbrite, SeatGeek — and asks for 3+ years in North American local life, travel, or hospitality.
+
+Other postings define the target markets as North American cities, primarily New York and Los Angeles, with Japanese and Korean markets named as a secondary cultural focus, and the acquisition surfaces as Instagram, TikTok, Reddit, Discord, YouTube, X, Google and Meta paid media, plus SEO and ASO.
+
+The [AI Product Manager](https://join.machinepulse.ai/api/jobs) and several other postings describe the product as being at the "0-to-1" stage.
+
 ---
 
 ## Founder
@@ -115,13 +125,17 @@ The two people identifiable by name:
 | Titus Zhai | Head of Growth, MachinePulse | quoted in the [2026-07-28 release](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html) |
 | Lucas Wu | "Building proactive AI @MachinePulse"; located in Singapore | [LinkedIn](https://sg.linkedin.com/in/fan-lucas-wu); the profile returned HTTP 999 when fetched on 2026-07-29, so only the search-result headline was readable |
 
+Two statements about the team appear in job descriptions and are the only characterisation of its composition found: the UI/UX Design Intern posting offers mentorship "directly alongside senior practitioners with ByteDance backgrounds", and the Commercial Operations posting offers "direct access to the founding team" ([jobs API](https://join.machinepulse.ai/api/jobs); accessed 2026-07-29). Neither names anyone.
+
 ---
 
 ## Funding
 
 No funding round has been announced by the company, by any investor, or in any media report found (searched 2026-07-29).
 
-The single funding statement located is on the company's own [careers page](https://join.machinepulse.ai/) (Undated; accessed 2026-07-29), which describes MachinePulse as a "global AI startup" that is "backed by top-tier USD funds, valued at nearly $100 million". No investor is named, no round label or amount is given, and no date is attached. Nothing corroborates it: no Crunchbase or Tracxn entry exists for the Singapore entity, and no press release, investor portfolio page, or news article mentioning a MachinePulse round was found.
+The funding statement appears twice, both times in the company's own recruitment copy. The [careers page](https://join.machinepulse.ai/) (Undated; accessed 2026-07-29) describes MachinePulse as a "global AI startup" that is "backed by top-tier USD funds, valued at nearly $100 million". The [Senior Manager, Commercial Operations description](https://join.machinepulse.ai/api/jobs) (created 2026-05-10) repeats it as "a global AI startup backed by top-tier USD funds, with a valuation approaching $100 million" and, under what the company offers, "Backed by premier USD funds with a valuation approaching $100M and meaningful equity upside".
+
+No investor is named, no round label or amount is given, and no date is attached in either place. Nothing corroborates it: no Crunchbase or Tracxn entry exists for the Singapore entity, and no press release, investor portfolio page, or news article mentioning a MachinePulse round was found. The same posting asks for candidates with "startup experience or time at an early-stage company (Series A or earlier)", which is a description of the candidate's background rather than a statement of the company's own stage.
 
 ---
 
@@ -140,7 +154,26 @@ The single funding statement located is on the company's own [careers page](http
 | Karpo delivery channel | Apple iMessage via a US phone number (+1 415 886 0326) | Confirmed — [how it works](https://app.karpo.ai/how-it-works) |
 | Karpo web surface | Server-rendered pages under `/scenarios/`, `/city-guides/`, `/explore/` | Confirmed — [sitemap](https://app.karpo.ai/sitemap.xml) |
 
-No model provider, cloud provider, database, or inference stack is disclosed for Karpo. Neither Karpo nor MachinePulse publishes a security page, subprocessor list, or data-retention policy; `app.karpo.ai/terms` and `app.karpo.ai/privacy` both returned HTTP 404 when fetched on 2026-07-29, although the Karpo landing page links to Terms of Use and a Privacy Notice.
+The following come from the [job descriptions](https://join.machinepulse.ai/api/jobs) (accessed 2026-07-29) and are hiring evidence, not confirmed production use. A required language supports an inference; an item listed only as a bonus qualification does not.
+
+| Item | Detail | Where it appears |
+|---|---|---|
+| Backend languages | Go and Python, advertised as two parallel senior roles with otherwise identical descriptions; a third role is Golang-specific for Agent systems | required |
+| Datastores | PostgreSQL, Redis, message queues, object storage | required |
+| Orchestration and cloud | Kubernetes cluster deployment and scheduling; at least one of AWS, GCP, or Azure and its managed services (ECS, EKS, GKE) | required |
+| Infrastructure tooling | Terraform, Ansible, Prometheus/Grafana, CI/CD pipelines, canary releases and rollback | required |
+| Service mesh | Istio, named as an example in traffic and network governance work | required (as example) |
+| Observability | Logging, metrics, distributed tracing; capacity planning and fault drills | required |
+| ML training stack | PyTorch; at least one of HuggingFace, DeepSpeed, or Megatron; SFT, DPO, GRPO, PPO, reward modeling, knowledge distillation | required |
+| iOS client | Swift with UIKit and/or SwiftUI; MVC/MVVM; Swift Package Manager, Tuist or CocoaPods; App Store and TestFlight distribution | required / bonus |
+| Web front end | JavaScript/TypeScript, HTML5, CSS3, React or Vue | required (intern role) |
+| Agent plumbing | MCP protocol pipeline development, prompt engineering, tool calling, context management | required (intern role) |
+| Retrieval | Vector databases and retrieval frameworks; recall optimization, ranking, evaluation | bonus only |
+| Multi-cloud | Hybrid cloud and multi-region, multi-cluster Kubernetes network governance | bonus only |
+
+Two facts follow from this that other sources did not establish. The company runs an **in-house LLM post-training effort** — the ML Algorithm Engineer role covers alignment and distillation to transfer reasoning and preference behaviour from large models into smaller ones for "intent recognition, personalized response generation, and digital persona" — so MachinePulse is not purely a consumer of third-party model APIs. And it is building a **native iOS client**, which the product pages do not mention.
+
+No model provider or cloud provider is named for Karpo in any product-facing source. Neither Karpo nor MachinePulse publishes a security page, subprocessor list, or data-retention policy; `app.karpo.ai/terms` and `app.karpo.ai/privacy` both returned HTTP 404 when fetched on 2026-07-29, although the Karpo landing page links to Terms of Use and a Privacy Notice.
 
 ### Systems
 
@@ -152,17 +185,33 @@ No model provider, cloud provider, database, or inference stack is disclosed for
 | SensorHub registry | Catalogue of published sensors with download counts, auto-registered by a postpublish CLI | [SensorHub](https://world2agent.ai/hub), [notify-hub repo](https://github.com/machinepulse-ai/world2agent-notify-hub) |
 | Shotwright AE runtime | Containerized After Effects driven by agent-written JSX, rendered headlessly by nexrender, streamed back as mp4 | [README](https://github.com/machinepulse-ai/shotwright) |
 
+### Technical background sought
+
+From the [job descriptions](https://join.machinepulse.ai/api/jobs) (accessed 2026-07-29), the prior problem experience candidates are expected to bring:
+
+- **Backend (Go / Python, senior):** production concurrency and performance tuning; consistency guarantees, caching strategy, rate limiting and graceful degradation; canary releases, rollback, service-metric interpretation and capacity planning. Bonus: production AI applications, retrieval and ranking evaluation.
+- **Backend (Go, Agent):** designing complex business systems and trading off reliability, performance, cost and delivery speed; tool integration, access control, task-state management, exception handling and phased releases. Bonus: workflow engines, task platforms, incident management.
+- **Infrastructure (SRE):** 3–5 years in infrastructure or operations; Kubernetes deployment, management and scheduling; traffic scheduling and network governance; IaC adoption. Bonus: cloud architect certification, service mesh rollout, open-source contributions.
+- **ML (post-training):** master's or above; Transformer and GPT-style architectures; hands-on post-training and alignment; transferring large-model capability into small models and shipping them. Bonus: contributions to LLaMA, Qwen, InternLM, Mistral, vLLM or alignment toolchains; publications; algorithm-competition background (AMC, ICPC, NOI, IOI).
+- **Product and content roles:** repeatedly require hands-on LLM project work — the Agent Content posting excludes candidates whose experience is "merely 'using ChatGPT' as a casual tool" — plus cross-cultural fluency in Western (primarily NYC/LA) or Japanese/Korean lifestyles.
+
 ### Working conditions
 
-The [careers page](https://join.machinepulse.ai/) (Undated; accessed 2026-07-29) is an application form with no open roles listed. Applications go to `ahr@machinepulse.ai` for full-time roles and `intern@machinepulse.ai` for internships, with the position named in the subject line. The form asks for preferred location, name, phone, email, and a résumé, and offers optional WeChat ID, referral code, and portfolio fields.
+The careers site loads its listings client-side from `https://join.machinepulse.ai/api/jobs`; the server-rendered HTML contains only the application form, so the roles are invisible to tools that do not execute JavaScript. As of 2026-07-29 the API returned 20 roles, all marked active: 12 full-time and 8 internships, across Research & Development (8), Product & Growth (10), Administration (1), and one with no department set. Creation timestamps cluster on 2026-01-29 (15 roles), with later additions on 2026-01-30, 2026-02-04, 2026-03-01, 2026-05-10, and 2026-07-25.
 
 | Item | Detail | Source |
 |---|---|---|
-| Open roles listed | None | [careers page](https://join.machinepulse.ai/) |
-| Locations offered | Not stated; the form asks the applicant for a preferred location | [careers page](https://join.machinepulse.ai/) |
-| Working language | Not stated. English is used throughout; the form has an optional WeChat ID field and the Shotwright repo carries a Simplified Chinese README | [careers page](https://join.machinepulse.ai/), [Shotwright](https://github.com/machinepulse-ai/shotwright) |
-| Salary, remote policy, visa, benefits | Not published | [careers page](https://join.machinepulse.ai/) |
-| Junior/intern hiring | Internships explicitly invited via a dedicated address | [careers page](https://join.machinepulse.ai/) |
+| Open roles | 20 active: 12 full-time, 8 internships | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Locations | 18 roles listed as Shanghai, 1 New York (Senior Backend Engineer, Go), 2 unset; every role offers Singapore / Shanghai / New York / California Bay Area as options | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Working language | Not stated as a company-wide policy. Postings are written in English; several product roles require "English as a working language"; applicant materials invite Xiaohongshu, Douyin and Bilibili links, and the application form has a WeChat ID field | [jobs API](https://join.machinepulse.ai/api/jobs), [careers form](https://join.machinepulse.ai/) |
+| Remote policy | The UI/UX Designer posting offers "flexible working arrangements and periodic remote options"; interns are required on-site at least 4 days per week | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Equity | "Competitive salary, performance bonuses, and equity incentives" (designer, PM); "a founding-team seat" and "meaningful equity upside" (Commercial Operations) | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Salary | Not published for any role | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Internships | 8 of 20 roles; 3–6 months, conversion to full-time offered for strong performers; one backend internship is scoped to the 2026/2027 graduating classes | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Stated culture | "Flat", "non-hierarchical", "extremely short decision-making chains", "direct access to the founding team"; AI coding tools encouraged with "ample token support" | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Application route | `ahr@machinepulse.ai` (full-time) or `intern@machinepulse.ai` (internships) with the position in the subject; or the on-site form. Some roles invite a 1–3 minute video pitch and social-profile links | [careers form](https://join.machinepulse.ai/), [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Interview process | Not described except for the Commercial Operations role's mention of ambiguity and pace; no stage count published | [jobs API](https://join.machinepulse.ai/api/jobs) |
+| Visa, benefits, turnover | Not published | [jobs API](https://join.machinepulse.ai/api/jobs) |
 
 ---
 
@@ -170,23 +219,24 @@ The [careers page](https://join.machinepulse.ai/) (Undated; accessed 2026-07-29)
 
 ### Not publicly disclosed
 
-Search scope for the findings below (2026-07-29): machinepulse.ai and every link on it; join.machinepulse.ai; world2agent.ai including the SensorHub; app.karpo.ai including its full sitemap, FAQ, about, how-it-works, and buzz pages; the GitHub organisation via the REST API, its six repositories, and its members page; the world2agent README and architecture doc; the Shotwright README; searches in English and Chinese for "MachinePulse", "MachinePulse Pte", "Karpo", "Karpo AI", and "World2Agent"; Crunchbase, Tracxn, and GetLatka; uspto.report trademark listings; and searches for a Karpo App Store listing.
+Search scope for the findings below (2026-07-29): machinepulse.ai and every link on it; join.machinepulse.ai rendered in a browser plus its `/api/jobs` endpoint and all 20 role records; world2agent.ai including the SensorHub; app.karpo.ai including its full sitemap, FAQ, about, how-it-works, and buzz pages; the GitHub organisation via the REST API, its six repositories, and its members page; the world2agent README and architecture doc; the Shotwright README; searches in English and Chinese for "MachinePulse", "MachinePulse Pte", "Karpo", "Karpo AI", and "World2Agent"; Crunchbase, Tracxn, and GetLatka; uspto.report trademark listings; and searches for a Karpo App Store listing.
 
 - No founder or CEO is named anywhere. No team page exists on any property.
 - No funding round, investor, valuation date, or database entry corroborating the careers-page claim was found.
 - No office address, registration number, or ACRA record was retrieved. The Singapore jurisdiction is inferred from the "Pte. Ltd." suffix, not verified against the register; a BizFile entity search was not performed.
 - No revenue model is documented for any product.
 - `app.karpo.ai/terms` and `app.karpo.ai/privacy` returned HTTP 404 despite being linked from the landing page. No security page, subprocessor list, data-retention statement, or certification is published for either Karpo or MachinePulse.
-- No model provider or cloud provider is disclosed.
-- No open job postings, salary bands, remote policy, or visa information were found.
+- No model provider is named. The cloud is narrowed only to "AWS, GCP, or Azure" by the SRE posting, which does not say which one is in use.
+- No salary band is published for any of the 20 roles, and no visa, benefits, or turnover information was found.
+- No named individual is attached to any role, department, or reporting line; the postings refer to "the founding team" without naming it.
 - No coverage in mainstream technology media was found — the only press located is a single 2026-07-28 release syndicated across openPR and a network of aggregator sites, plus one Chinese blog post on World2Agent.
 - The GitHub organisation has no public members, so individual contributors cannot be identified from it.
 
 ### Inconsistencies across sources
 
 - **Which MachinePulse:** [Crunchbase](https://www.crunchbase.com/organization/machinepulse), [Tracxn](https://tracxn.com/d/companies/machine-pulse/__T2EbVVSjXHxNVi2tptAU2PdQE2I7bYoG-0V2Qt1iFD8), and [GetLatka](https://getlatka.com/companies/machinepulse) return an unrelated Mumbai industrial-IoT company for the query "MachinePulse". Their founder, revenue, headcount, and funding-status fields do not describe the Singapore entity.
-- **Country:** a [third-party social post](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay) describes MachinePulse as "US-based", while the legal entity is a Singapore Pte. Ltd. and the [GitHub organisation](https://github.com/machinepulse-ai) lists Singapore. The Karpo iMessage number is a US number and the press release datelines are not Singapore-specific.
-- **Karpo platform:** the [2026-07-28 release](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html) says Karpo is "available on App and iMessage"; the [FAQ](https://app.karpo.ai/faqs) and [how-it-works](https://app.karpo.ai/how-it-works) pages describe only the iMessage path, and no App Store listing was found.
+- **Country and centre of operations:** a [third-party social post](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay) describes MachinePulse as "US-based"; the legal entity is a Singapore Pte. Ltd. and the [GitHub organisation](https://github.com/machinepulse-ai) lists Singapore; and 18 of 20 open roles are located in Shanghai ([jobs API](https://join.machinepulse.ai/api/jobs)). Three sources, three different countries — none of them wrong on its own terms, but the hiring data is the only one that indicates where the work is actually done.
+- **Karpo platform:** the [2026-07-28 release](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html) says Karpo is "available on App and iMessage"; the [FAQ](https://app.karpo.ai/faqs) and [how-it-works](https://app.karpo.ai/how-it-works) pages describe only the iMessage path, and no App Store listing was found. An [iOS Development Intern posting](https://join.machinepulse.ai/api/jobs) covering Swift, App Store submission and TestFlight distribution indicates a native client is under development, which is consistent with the app being unreleased rather than with either page being wrong.
 - **Karpo capabilities:** the [how-it-works page](https://app.karpo.ai/how-it-works) presents ticket booking, travel booking, and "life admin" in aspirational phrasing, while the [press release](https://news.eandtnews.com/story/560137/karpo-crosses-half-a-million-personalized-recommendations-in-under-80-days.html) presents integrated booking through four named partners as shipped.
 
 ### Other
@@ -196,6 +246,8 @@ Search scope for the findings below (2026-07-29): machinepulse.ai and every link
 - The 2026-07-28 release was distributed through [openPR](https://www.openpr.com/news/4589478/karpo-crosses-half-a-million-personalized-recommendations) and republished verbatim across a large set of near-identical local-news aggregator domains. It is one release, not multiple independent reports.
 - A [third-party social post](https://www.threads.com/@buzz.indica/post/DV8UQrGERU1/us-based-startup-machine-pulses-ai-agent-karpo-has-started-offering-to-pay) describes Karpo offering to sponsor users' outings up to $300 per person if it finds their plan interesting. No company-published source for this campaign was found.
 - All World2Agent code is Apache 2.0 and Shotwright is MIT; the protocol, SDK, plugins, example sensors, and registry CLI are all published openly.
+- The careers listings are the densest public source on this company by a wide margin — they establish the operating location, the stack, the existence of an in-house post-training team and an unreleased iOS client, and the commercial direction, none of which appears on any product or press surface. They are also invisible without JavaScript, since the page renders them from `/api/jobs` client-side.
+- Hiring is weighted toward go-to-market: 10 of 20 roles are in Product & Growth, most of them overseas social media, influencer marketing, paid media, and growth, against 8 in Research & Development ([jobs API](https://join.machinepulse.ai/api/jobs)).
 
 ---
 
@@ -204,7 +256,7 @@ Search scope for the findings below (2026-07-29): machinepulse.ai and every link
 **Official**
 
 - [MachinePulse — corporate site](https://www.machinepulse.ai/)
-- [Careers](https://join.machinepulse.ai/)
+- [Careers](https://join.machinepulse.ai/) · [jobs API — the 20 role records the page renders from](https://join.machinepulse.ai/api/jobs)
 - [LinkedIn](https://www.linkedin.com/company/machinepulseai/about/)
 - [X — @MachinePulse_AI](https://x.com/MachinePulse_AI)
 - Karpo
