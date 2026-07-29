@@ -9,6 +9,7 @@
 |---|---|---|
 | AIsa | 面向 AI agent 的资源与支付网关 | [English](aisa/) · [简体中文](aisa/README.zh-CN.md) |
 | Flexport | 数字货运代理与报关 | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
+| MachinePulse | 主动式 AI 智能体 —— 消费端、协议与媒体制作 | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
 | NETSTARS | 支付 | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Tensor Energy | 可再生能源与储能运营 | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
