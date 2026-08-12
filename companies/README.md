@@ -2,13 +2,14 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-07-30.
+> Last updated: 2026-08-12.
 
 | Company | Area | Research |
 |---|---|---|
 | AIsa | Resource and payment gateway for AI agents | [English](aisa/) · [简体中文](aisa/README.zh-CN.md) |
 | Aippy | AI game creation and UGC community | [English](aippy/) · [简体中文](aippy/README.zh-CN.md) |
 | Eazo | Consumer AI app marketplace and agent infrastructure | [English](eazo/) · [简体中文](eazo/README.zh-CN.md) |
+| Evoto | AI photo editing and workflow software for photographers | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | Digital freight forwarding and customs | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
 | Jerry | Car insurance brokerage and car-ownership app | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
 | MachinePulse | Proactive AI agents — consumer, protocol, and media | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
