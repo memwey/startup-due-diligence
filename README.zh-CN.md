@@ -4,7 +4,7 @@
 
 > 面向工程师的尽职调查。
 > 最后更新：2026-07-29。
-> 在线阅读：<https://dairui1.github.io/startup-due-diligence/zh/>
+> 在线阅读：<https://memwey.github.io/startup-due-diligence/zh/>
 
 一个开放的研究资料库，为工程师在加入科技初创公司之前评估公司提供有来源依据的事实。
 
