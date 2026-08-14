@@ -9,6 +9,7 @@
 |---|---|---|
 | AIsa | 面向 AI agent 的资源与支付网关 | [English](aisa/) · [简体中文](aisa/README.zh-CN.md) |
 | Aippy | AI 游戏创作与 UGC 社区 | [English](aippy/) · [简体中文](aippy/README.zh-CN.md) |
+| CrushOn AI | 仅限成年人的 AI 角色聊天 | [English](crushon/) · [简体中文](crushon/README.zh-CN.md) |
 | Eazo | 消费级 AI 应用市场与 agent 基础设施 | [English](eazo/) · [简体中文](eazo/README.zh-CN.md) |
 | Evoto | 面向摄影师的 AI 修图与工作流软件 | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | 数字货运代理与报关 | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
