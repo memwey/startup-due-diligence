@@ -11,6 +11,7 @@ Usage: python3 scripts/build_site.py [--out _site]
 
 import argparse
 import html
+import os
 import posixpath
 import re
 import shutil
@@ -21,7 +22,9 @@ from markdown.extensions.toc import slugify_unicode
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_ASSETS = ROOT / "site"
-REPO_URL = "https://github.com/dairui1/startup-due-diligence"
+# In GitHub Actions, GITHUB_REPOSITORY makes forks link to their own copy.
+REPO_SLUG = os.environ.get("GITHUB_REPOSITORY", "memwey/startup-due-diligence")
+REPO_URL = f"https://github.com/{REPO_SLUG}"
 
 STRINGS = {
     "en": {
