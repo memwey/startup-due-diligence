@@ -4,6 +4,7 @@
 
 > Due diligence for engineers.
 > Last updated: 2026-07-29.
+> Browse the website: <https://dairui1.github.io/startup-due-diligence/>
 
 An open research repository that gives engineers sourced evidence for evaluating
 technology startups before joining them.
