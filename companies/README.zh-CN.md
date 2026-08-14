@@ -2,8 +2,8 @@
 
 [English](README.md) | **简体中文**
 
-> 最后更新：2026-08-12。
-> 本文与英文版同步至：2026-08-12。英文版为原始版本。
+> 最后更新：2026-08-14。
+> 本文与英文版同步至：2026-08-14。英文版为原始版本。
 
 | 公司 | 领域 | 调研 |
 |---|---|---|
@@ -20,6 +20,7 @@
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Tensor Energy | 可再生能源与储能运营 | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
 | Verdent | 智能体编程工具 | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
+| Vizzy Labs | 创作者营销与 UGC 视频平台 | [English](vizzylabs/) · [简体中文](vizzylabs/README.zh-CN.md) |
 | Waka | 跨境贸易结算基础设施 | [English](waka/) · [简体中文](waka/README.zh-CN.md) |
 
 每份公司页面包括：
