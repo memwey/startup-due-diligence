@@ -2,8 +2,8 @@
 
 [English](README.md) | **简体中文**
 
-> 最后更新：2026-08-14。
-> 本文与英文版同步至：2026-08-14。英文版为原始版本。
+> 最后更新：2026-08-18。
+> 本文与英文版同步至：2026-08-18。英文版为原始版本。
 
 | 公司 | 领域 | 调研 |
 |---|---|---|
@@ -15,6 +15,7 @@
 | Flexport | 数字货运代理与报关 | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
 | Jerry | 车险经纪与汽车持有应用 | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
 | MachinePulse | 主动式 AI 智能体 —— 消费端、协议与媒体制作 | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
+| Naive.ai | 与代季峰关联的隐身期 AI 创业公司 | [English](naive-ai/) · [简体中文](naive-ai/README.zh-CN.md) |
 | NETSTARS | 支付 | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
 | New Aim | 电商赋能、代发货与履约 | [English](newaim/) · [简体中文](newaim/README.zh-CN.md) |
 | Notta | AI 转写与会议记录 | [English](notta/) · [简体中文](notta/README.zh-CN.md) |

@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-08-14.
+> Last updated: 2026-08-18.
 
 | Company | Area | Research |
 |---|---|---|
@@ -14,6 +14,7 @@
 | Flexport | Digital freight forwarding and customs | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
 | Jerry | Car insurance brokerage and car-ownership app | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
 | MachinePulse | Proactive AI agents — consumer, protocol, and media | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
+| Naive.ai | Stealth AI startup associated with Jifeng Dai | [English](naive-ai/) · [简体中文](naive-ai/README.zh-CN.md) |
 | NETSTARS | Payments | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
 | New Aim | E-commerce enablement, dropshipping and fulfilment | [English](newaim/) · [简体中文](newaim/README.zh-CN.md) |
 | Notta | AI transcription and meeting notes | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
