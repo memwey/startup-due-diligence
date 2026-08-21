@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-08-18.
+> Last updated: 2026-08-21.
 
 | Company | Area | Research |
 |---|---|---|
@@ -13,6 +13,7 @@
 | Evoto | AI photo editing and workflow software for photographers | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | Digital freight forwarding and customs | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
 | Jerry | Car insurance brokerage and car-ownership app | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
+| KusArt | Consumer AI anime art and OC generator | [English](kusart/) · [简体中文](kusart/README.zh-CN.md) |
 | MachinePulse | Proactive AI agents — consumer, protocol, and media | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
 | Naive.ai | Stealth AI startup associated with Jifeng Dai | [English](naive-ai/) · [简体中文](naive-ai/README.zh-CN.md) |
 | NETSTARS | Payments | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
