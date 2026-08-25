@@ -19,6 +19,7 @@
 | NETSTARS | Payments | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
 | New Aim | E-commerce enablement, dropshipping and fulfilment | [English](newaim/) · [简体中文](newaim/README.zh-CN.md) |
 | Notta | AI transcription and meeting notes | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
+| OJO | AI design agent workspace for UI, landing pages, and prototypes | [English](ojo/) · [简体中文](ojo/README.zh-CN.md) |
 | Shippio | Digital freight forwarding | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | TapNow | Agentic creative canvas for visual production | [English](tapnow/) · [简体中文](tapnow/README.zh-CN.md) |
 | Tensor Energy | Renewable energy and battery operations | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
