@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-08-21.
+> Last updated: 2026-08-26.
 
 | Company | Area | Research |
 |---|---|---|
@@ -20,6 +20,7 @@
 | New Aim | E-commerce enablement, dropshipping and fulfilment | [English](newaim/) · [简体中文](newaim/README.zh-CN.md) |
 | Notta | AI transcription and meeting notes | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | Shippio | Digital freight forwarding | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
+| TapNow | Agentic creative canvas for visual production | [English](tapnow/) · [简体中文](tapnow/README.zh-CN.md) |
 | Tensor Energy | Renewable energy and battery operations | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
 | Verdent | Agentic coding tools | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
 | Vizzy Labs | Creator-marketing and UGC video platform | [English](vizzylabs/) · [简体中文](vizzylabs/README.zh-CN.md) |

@@ -2,8 +2,8 @@
 
 [English](README.md) | **简体中文**
 
-> 最后更新：2026-08-21。
-> 本文与英文版同步至：2026-08-21。英文版为原始版本。
+> 最后更新：2026-08-26。
+> 本文与英文版同步至：2026-08-26。英文版为原始版本。
 
 | 公司 | 领域 | 调研 |
 |---|---|---|
@@ -21,6 +21,7 @@
 | New Aim | 电商赋能、代发货与履约 | [English](newaim/) · [简体中文](newaim/README.zh-CN.md) |
 | Notta | AI 转写与会议记录 | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
+| TapNow | 面向视觉创作的 agent 画布 | [English](tapnow/) · [简体中文](tapnow/README.zh-CN.md) |
 | Tensor Energy | 可再生能源与储能运营 | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
 | Verdent | 智能体编程工具 | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
 | Vizzy Labs | 创作者营销与 UGC 视频平台 | [English](vizzylabs/) · [简体中文](vizzylabs/README.zh-CN.md) |
