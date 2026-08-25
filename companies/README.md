@@ -21,6 +21,7 @@
 | Notta | AI transcription and meeting notes | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | OJO | AI design agent workspace for UI, landing pages, and prototypes | [English](ojo/) · [简体中文](ojo/README.zh-CN.md) |
 | Shippio | Digital freight forwarding | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
+| Spatius | Real-time AI avatar (digital human) SDK and infrastructure | [English](spatius/) · [简体中文](spatius/README.zh-CN.md) |
 | TapNow | Agentic creative canvas for visual production | [English](tapnow/) · [简体中文](tapnow/README.zh-CN.md) |
 | Tensor Energy | Renewable energy and battery operations | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
 | Verdent | Agentic coding tools | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |

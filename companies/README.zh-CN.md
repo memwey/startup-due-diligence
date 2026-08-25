@@ -22,6 +22,7 @@
 | Notta | AI 转写与会议记录 | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | OJO | 面向 UI、落地页与原型的 AI 设计 agent 工作台 | [English](ojo/) · [简体中文](ojo/README.zh-CN.md) |
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
+| Spatius | 实时 AI 数字人 SDK 与基础设施 | [English](spatius/) · [简体中文](spatius/README.zh-CN.md) |
 | TapNow | 面向视觉创作的 agent 画布 | [English](tapnow/) · [简体中文](tapnow/README.zh-CN.md) |
 | Tensor Energy | 可再生能源与储能运营 | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
 | Verdent | 智能体编程工具 | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
