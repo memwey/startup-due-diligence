@@ -13,7 +13,8 @@ OJO 是 `ojo.art` 上的一款邀请制 AI 设计产品，在同一张画布上�
 - 产品于 2026-08-18 在 X 上公开发布："Today, we're introducing OJO: The first Design Agent Team Workspace."（[@OJOaidesign，2026-08-18](https://x.com/OJOaidesign/status/2089731834095489430)）。首页目前仍写着 "OJO is in private beta. Join the waitlist and we will enable access for you as soon as we can."（[ojo.art](https://ojo.art/)；访问于 2026-08-26）。
 - 公司自身的各类物料中出现了四个名字 —— **OJO**（品牌）、**Touchine**（法律主体与 npm scope）、**iRise**（静态资源路径与 GitHub 组织）、**Nexight**（VS Code 插件市场发布者），详见 `名称与主体`。
 - 价格已公开且处于生效状态：Free（$0）、Plus（$27/月 或 $300/年）、Pro（$62/月 或 $684/年），另有四档积分包，通过 Stripe 与 Antom 收款（[/api/commerce/v1/billing/plans](https://ojo.art/subscribe)；读取于 2026-08-26），详见 `商业化`。
-- 在下文所述检索范围内，未发现公开的创始人、团队成员、人数、融资或用户规模信息，详见 `备注`。
+- 创始人是 **Kiki ZHANG**（X `@kiki_ZHANG_OJO`，简介为 "ex Bytedancer, now Founder of @ojoaidesign"），OJO 自己的 GitHub 组织把该账号列为公司的 X 账号。硅星人Pro 在 2026-08-12 的报道中指其为 **张琪智（KiKi）**，字节跳动剪映前产品负责人，详见 `团队`。
+- 在下文所述检索范围内，未发现公开的融资、人数或用户规模信息，详见 `备注`。
 
 ---
 
@@ -37,7 +38,8 @@ OJO 是 `ojo.art` 上的一款邀请制 AI 设计产品，在同一张画布上�
 | 社交与社区 | X `@OJOaidesign` —— "Joined June 2026"，2,076 关注者，171 关注中。Discord 服务器 "OJO" —— 303 名成员，37 人在线。网站上的邀请链接（`Fw55pk7z3N`）与 X 简介中的（`GDtZg4Fs27`）指向同一服务器 id `1503702135249047562`。 | [X 主页](https://x.com/OJOaidesign)、[Discord 邀请 API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true)；观察于 2026-08-26 |
 | 移动应用 | 美区 App Store 未检索到该品牌的应用 | [iTunes 搜索 API](https://itunes.apple.com/search?term=ojo%20design%20agent&entity=software&country=us&limit=5)；查询于 2026-08-26 |
 | 互联网档案馆 | 未索引到 `ojo.art` 的任何快照 | [Wayback 可用性 API](http://archive.org/wayback/available?url=ojo.art) 与 CDX 索引；查询于 2026-08-26 |
-| 团队、人数、融资 | 网站、法律文件及下文检索范围内的任何来源均未公布 | 见 `备注` |
+| 创始人 | "Kiki ZHANG"（X `@kiki_ZHANG_OJO`），自述 "ex Bytedancer, now Founder of @ojoaidesign"；硅星人Pro 报道其为张琪智（KiKi），字节跳动剪映前产品负责人 | [GitHub 组织 `touchine-ojo`](https://github.com/touchine-ojo)、[@kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO)、[硅星人Pro 经虎嗅发布，2026-08-12](https://www.huxiu.com/article/4882486.html) |
+| 人数、融资 | 网站、法律文件及下文检索范围内的任何来源均未公布 | 见 `备注` |
 
 ### 名称与主体
 
@@ -50,6 +52,7 @@ OJO 是 `ojo.art` 上的一款邀请制 AI 设计产品，在同一张画布上�
 | touchine.ai | 域名 | 跳转至 `ojo.art` | 观察于 2026-08-26 |
 | touchine.com | 域名 | 提供一个看上去无关的页面，标题为 "Touchine Project Engineering - Boson Core"，在中国大陆备案为 "京ICP备2026017083号-1" 与 "京公网安备11010502060187号"。没有任何来源将该备案与 Touchine AI (HK) Limited 关联起来，见 `备注`。 | [touchine.com](https://touchine.com/)；读取于 2026-08-26 |
 | iRise / irise-studio | 静态资源与代码托管 | 市场站点由 `/_static/irise-official/` 提供；npm 包的 `repository` 字段指向 `git+https://github.com/irise-studio/irise-extension.git`，目录 `apps/cli` | [ojo.art](https://ojo.art/) 资源路径、[npm registry](https://registry.npmjs.org/@touchine%2Fojo) |
+| touchine-ojo | GitHub 组织 | 显示名 "OJO TEAM"，位置 "Hong Kong"，主页 `https://ojo.art`，邮箱 `support@touchine.ai`，X 账号 `kiki_ZHANG_OJO`；创建于 2026-07-07；一个公开仓库 | [GitHub API](https://api.github.com/orgs/touchine-ojo)；读取于 2026-08-26 |
 | Nexight | VS Code 插件市场发布者 | 发布者 `nexight`（显示名 "Nexight"），发布者域名 `https://ojo.art`（未通过域名验证），发布插件 `ojo` | [VS Code Marketplace API](https://marketplace.visualstudio.com/items?itemName=nexight.ojo)；读取于 2026-08-26 |
 | `zk` | 前端存储键名 | 浏览器存储使用 `zk`／`ZK` 前缀（`zk-web-subscribe-billing-plans-cache-v1`、`__ZK_AUTH_STATE_SYNC__`、`zk_mixpanel_analytics_consent_v1`），应用的 i18n 键名以 `canvas.components.*` 命名 | 于 `ojo.art` 读取 localStorage，2026-08-26 |
 
@@ -74,6 +77,7 @@ GitHub 组织 `irise-studio` 存在，创建于 2026-04-08，有 6 个关注者�
 | CLI | `npm install -g @touchine/ojo`。命令包括 `ojo auth login`（模式 `web`、`device`、`pat`）、`ojo project list`、`ojo project open`、`ojo chat --message`、`ojo query --project-id`、`ojo workspace sync <id> [--path]`。同步下来的代码位于 `<project-name>/ojo-prototype`，自动安装依赖并启动开发环境。 | [ojo.art](https://ojo.art/)、[帮助中心](https://ojo.art/help-center) §3.4–3.5 |
 | 编辑器插件 | "Ojo platform integration for VS Code and Cursor: sign in, open projects, chat with sessions, sync local workspaces, and (in Cursor) register a session-scoped Ojo MCP server for agent tools." | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) |
 | 导出 | 首页写着 "支持CLI、插件嵌入AI开发流，资产互通 / 设计即交付"。套餐功能区分 "仅支持代码导出" 与 "全格式导出"。 | [ojo.art/zh-CN](https://ojo.art/zh-CN/)、[计费套餐 API](https://ojo.art/subscribe) |
+| 开源 Skills | `touchine-ojo/OJO-Design-Skills`（MIT）—— "Reusable UI/UX design skills for AI coding agents — Codex, Claude Code, ZCode, and more"，由一个安装脚本分发到 Codex、Claude Code、ZCode、DeepCode、WorkBuddy、OpenCode 或通用 agent 目录 | [GitHub](https://github.com/touchine-ojo/OJO-Design-Skills)；读取于 2026-08-26 |
 | 博客 | 16 篇文章，分为 "OJO PlayBook"、"OJO Field Notes"、"OJO 最佳实践" 三个系列，六种语言全部发布 | [博客索引](https://ojo.art/blog/posts/)；读取于 2026-08-26 |
 
 ### 商业化
@@ -100,6 +104,8 @@ GitHub 组织 `irise-studio` 存在，创建于 2026-04-08，有 6 个关注者�
 | Discord | 303 名成员、37 人在线；服务器 id `1503702135249047562`，按 Discord snowflake 换算对应 2026-05-12 | [Discord 邀请 API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true) |
 | VS Code 插件 | 版本 0.0.1，发布于 2026-03-20；17 次安装、222 次下载 | [VS Code Marketplace API](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) |
 | npm CLI | 5 个版本（1.0.4–1.0.8）；首次发布 2026-05-18，最新 1.0.8 发布于 2026-08-06 | [npm registry](https://registry.npmjs.org/@touchine%2Fojo) |
+| 创始人 X 账号 | `@kiki_ZHANG_OJO`，221 关注者，172 关注中；"Joined June 2026" | [@kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO) |
+| 开源仓库 | `OJO-Design-Skills`：8 星、0 fork、5 次提交；首次提交 2026-07-25，最后推送 2026-07-29 | [GitHub API](https://api.github.com/repos/touchine-ojo/OJO-Design-Skills) |
 
 ### 已公布的内容规则
 
@@ -111,13 +117,29 @@ AI 产出的所有权 "Upon generation and full payment of applicable Credits" �
 
 ## 团队
 
-`ojo.art`、服务条款、隐私政策、帮助中心、X 账号，以及 `备注` 所述检索范围内的任何来源，均未提及创始人、高管、员工或人数。在公司物料中找到的仅有两个个人标识：`@touchine/ojo` 与 `@touchine/contract-design-project` 的 npm 维护者账号 `rogerhorsley`（`rogerhorsleymorris@gmail.com`）（[npm registry](https://registry.npmjs.org/@touchine%2Fojo)；读取于 2026-08-26），以及 Discord 邀请创建者 `waterplants888`／"Waterplants"（[Discord 邀请 API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true)；读取于 2026-08-26）。两者均未在任何地方被标注为公司职务。
+`ojo.art` 本身、服务条款、隐私政策与帮助中心均未提及任何人。创始人的身份来自公司的 GitHub 组织与 X 账号。
+
+| 事实 | 内容 | 来源 |
+|---|---|---|
+| 公司口径的创始人 | GitHub 组织 `touchine-ojo`，显示名 "OJO TEAM"，主页 `https://ojo.art`，邮箱 `support@touchine.ai`，将 `kiki_ZHANG_OJO` 列为其 X 账号 | [GitHub API](https://api.github.com/orgs/touchine-ojo)；读取于 2026-08-26 |
+| 本人口径的创始人 | X `@kiki_ZHANG_OJO`，显示名 "Kiki ZHANG"，简介 "ex Bytedancer, now Founder of @ojoaidesign"，"Joined June 2026" | [@kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO)；读取于 2026-08-26 |
+| 创始人的发布帖 | "OJO is officially here.❤️ After leaving ByteDance and starting OJO, I kept asking myself: When AI makes building easier for everyone, what still makes a product worth shipping? My answer: taste." | [@kiki_ZHANG_OJO，2026-08-19](https://x.com/kiki_ZHANG_OJO/status/2089746515246133495) |
+| 媒体指认 | "4月，剪映产品负责人张琪智离职，开始AI Design方向创业。她的新产品OJO定位为设计场景里的Agent团队工作台，目前已经开始内测。" 该文附录中列出 "OJO（ojo.art）"。 | [硅星人Pro 经虎嗅发布，2026-08-12](https://www.huxiu.com/article/4882486.html) |
+| 媒体给出的英文名 | 标题："字节跳动剪映产品负责人张琪智（KiKi）离职创业，4月中旬已在深圳成立新公司" | [鲁中晨报 经网易发布，2026-05-13](https://www.163.com/dy/article/KSRD3PT40530JPVV.html) |
+| 仓库 code owners | `OJO-Design-Skills` 的 `.github/CODEOWNERS` 写着 `* @rogerhorsley @kikizhang0710-png`；GitHub 账号 `kikizhang0710-png` 创建于 2026-03-27 | [CODEOWNERS](https://github.com/touchine-ojo/OJO-Design-Skills/blob/main/.github/CODEOWNERS)、[GitHub API](https://api.github.com/users/kikizhang0710-png)；读取于 2026-08-26 |
+| 公司物料中的其他标识 | `@touchine/ojo` 与 `@touchine/contract-design-project` 的 npm 维护者 `rogerhorsley`（`rogerhorsleymorris@gmail.com`），其提交的作者名为 "Sisma"；Discord 邀请创建者 `waterplants888`／"Waterplants"。两者均未在任何地方被标注为公司职务。 | [npm registry](https://registry.npmjs.org/@touchine%2Fojo)、[提交记录](https://api.github.com/repos/touchine-ojo/OJO-Design-Skills/commits)、[Discord 邀请 API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true) |
+
+**媒体报道的张琪智履历**（2026 年 5 月中文媒体，未经公司确认）：1994 年出生；本科西南大学新闻传媒学院，硕士香港中文大学；2015 年硕士毕业后加入郭列创立的脸萌任产品经理；2018 年 3 月字节跳动以 3 亿美元收购脸萌后随团队加入字节；2022 年 12 月以剪映工具产品负责人身份出席剪映创作大会；2024 年底升任剪映产品负责人；2026-03-26 卸任脸萌技术（深圳）有限公司经理、董事、法定代表人；2026-04-17 在深圳注册成立深圳想象着陆科技有限公司，注册资本 100 万元，本人 100% 持股并任法定代表人（[澎湃新闻](https://m.thepaper.cn/newsDetail_forward_33177991)、[每日经济新闻，2026-05-13](https://www.nbd.com.cn/articles/2026-05-13/4391026.html)、[DoNews](https://www.donews.com/news/detail/4/6547954.html)）。
+
+公司控制的任何来源都没有提到张琪智，没有把 OJO 与深圳想象着陆科技有限公司关联起来，也没有提到创始人以外的任何员工。
 
 ---
 
 ## 融资
 
-公司未宣布、也没有任何检索到的来源报道过任何融资轮次、投资方、估值或金额。未找到 Touchine AI (HK) Limited 或 `ojo.art` 上 OJO 的 Crunchbase、PitchBook 或 Tracxn 档案；以 "OJO" 加融资关键词检索返回的是 **OJO Labs** —— 一家位于美国德州奥斯汀、与本公司无关的房地产公司，2019 年完成 4,500 万美元 C 轮（[PR Newswire，2019](https://www.prnewswire.com/news-releases/ojo-labs-raises-45-million-in-series-c-funding-to-accelerate-product-development-and-fuel-expansion-300814706.html)），见 `备注`。
+公司未宣布、也没有任何检索到的来源报道过任何融资轮次、投资方、估值或金额。指认 OJO 的那篇硅星人Pro 剪映系创业盘点，在同一篇里给出了多家其他公司的融资数字，唯独没有 OJO 的（[硅星人Pro 经虎嗅发布，2026-08-12](https://www.huxiu.com/article/4882486.html)）。媒体报道中张琪智注册的深圳想象着陆科技有限公司为本人 100% 持股、注册资本 100 万元，这是注册数字而非投资（[每日经济新闻，2026-05-13](https://www.nbd.com.cn/articles/2026-05-13/4391026.html)）。
+
+未找到 Touchine AI (HK) Limited 或 `ojo.art` 上 OJO 的 Crunchbase、PitchBook 或 Tracxn 档案；以 "OJO" 加融资关键词检索返回的是 **OJO Labs** —— 一家位于美国德州奥斯汀、与本公司无关的房地产公司，2019 年完成 4,500 万美元 C 轮（[PR Newswire，2019](https://www.prnewswire.com/news-releases/ojo-labs-raises-45-million-in-series-c-funding-to-accelerate-product-development-and-fuel-expansion-300814706.html)），见 `备注`。
 
 ---
 
@@ -170,15 +192,17 @@ AI 产出的所有权 "Upon generation and full payment of applicable Credits" �
 
 ### 未公开的信息
 
-以下结论的检索范围（2026-08-26）：`ojo.art` 首页及六个语言根路径、`/terms`、`/privacy-policy`、`/help-center`、`/subscribe`、`/blog/posts/` 与 `/blog/zh-cn/posts/`、`robots.txt`、`sitemap.xml` 与 `pages-sitemap.xml`；对 `/about`、`/careers`、`/pricing`、`/privacy`、`/legal/*`、`/docs`、`/login`、`/app`、`/changelog`、`/refund-policy`、`/workspace`、`/canvas`、`/explore`、`/invite`、`/waitlist` 的探测；页面的网络请求、JavaScript 打包文件、构建期运行时配置与浏览器存储；计费套餐 API；`ojo.art`、`touchine.ai`、`touchine.com`、`ojo.dev` 与 `irise.art` 的 WHOIS 与 DNS；互联网档案馆 CDX 与可用性 API；npm registry 中的 `@touchine` scope；GitHub API 中的 `irise-studio`；VS Code Marketplace API；Discord 邀请 API；X 账号及其发布话题；美区 App Store；tempb.com 香港公司名录；以及围绕 OJO、ojo.art、Touchine、Touchine AI (HK) Limited、iRise Studio 和该 ICP 备案号的中英文检索。
+以下结论的检索范围（2026-08-26）：`ojo.art` 首页及六个语言根路径、`/terms`、`/privacy-policy`、`/help-center`、`/subscribe`、`/blog/posts/` 与 `/blog/zh-cn/posts/`、`robots.txt`、`sitemap.xml` 与 `pages-sitemap.xml`；对 `/about`、`/careers`、`/pricing`、`/privacy`、`/legal/*`、`/docs`、`/login`、`/app`、`/changelog`、`/refund-policy`、`/workspace`、`/canvas`、`/explore`、`/invite`、`/waitlist` 的探测；页面的网络请求、JavaScript 打包文件、构建期运行时配置与浏览器存储；计费套餐 API；`ojo.art`、`touchine.ai`、`touchine.com`、`ojo.dev` 与 `irise.art` 的 WHOIS 与 DNS；互联网档案馆 CDX 与可用性 API；npm registry 中的 `@touchine` scope；GitHub API 中的 `irise-studio`；VS Code Marketplace API；Discord 邀请 API；X 账号 `@OJOaidesign` 与 `@kiki_ZHANG_OJO` 及其发布话题；美区 App Store；tempb.com 香港公司名录；以及围绕 OJO、ojo.art、Touchine、Touchine AI (HK) Limited、iRise Studio、Nexight、该 ICP 备案号、张琪智与深圳想象着陆科技有限公司的中英文检索。
 
-- **创始人、高管与任何具名员工。** 公司控制的任何来源均未提及。
+- **创始人以外的任何员工与高管团队。** 公司控制的来源中没有第二个带职务的人名。
+- **创始人法定姓名与既往职务的第一方说明。** X 简介只写了 "ex Bytedancer"；指认其为剪映前产品负责人张琪智的是中文媒体，而非公司自身。
 - **人数、办公地点与团队实际所在地。** 香港地址是列为法律联系地址的中环广场某室；未说明其他地点。站点图片资源中的中文文件名（`花`、`前景`、`人`、`代码`、`元素`、`背景`、`海报`、`荧幕`、`人物`、`墨水`、`素材`）以及 `touchine.ai` 与 `touchine.com` 的 CN 注册人国别，是仅有的与地点相关的信号。
 - **任何融资轮次、投资方或估值。**
 - **香港公司注册处的详细登记事项。** 未取得董事、股东与登记地址；上文的成立日期与商业登记号来自第三方聚合站，而非注册处本身，后者的查询需要付费或登录。
 - **任何用户、订阅、收入、项目或生成量总数。**
 - **各档位背后具体是什么模型。** 套餐提到 "基础模型"、"Flash + 有限高级模型" 与 "SOTA / Master / 生图模型"，未点名任何一个模型或版本。服务条款以 "including but not limited to" 提到 Google Gemini 与 Anthropic Claude。
 - **每次操作消耗多少积分。** 只公布了各套餐的总额度，没有任何单次生成的积分价格。
+- **OJO 披露的运营主体与创始人被报道注册的中国公司之间的关系。** 媒体报道的是深圳想象着陆科技有限公司（深圳，2026-04-17 注册）；产品的服务条款写的是 Touchine AI (HK) Limited（香港，报道的成立日为 2026-04-28）；`touchine.com` 则挂着北京 ICP 备案。没有任何来源把这三者连起来。
 - **Touchine AI (HK) Limited 与 `touchine.com` 背后北京主体之间的关系。** 备案号 "京ICP备2026017083号-1" 未能解析出登记名称；本环境下无法访问工信部备案查询服务。
 - **"Nexight" 是谁。** 该 VS Code 发布者声称域名为 `https://ojo.art`，但插件市场未验证该域名，这一名称也未出现在公司的其他任何来源中。
 - **GitHub 仓库。** 已发布 npm 包所引用的 `irise-studio/irise-extension` 为私有仓库。
@@ -193,6 +217,7 @@ AI 产出的所有权 "Upon generation and full payment of applicable Credits" �
 - **Skills 数量说法不一。** 首页宣称 "200 多种" Skills；X 账号称 "OJO currently offers more than 300 skills"（[ojo.art/zh-CN](https://ojo.art/zh-CN/)、[@OJOaidesign](https://x.com/OJOaidesign)；均读取于 2026-08-26）。
 - **计费接口的数值与自身文案不一致。** Free 套餐的功能文案写 "每日登录 100 积分"，而该套餐的 `credits` 字段与渲染出的页面都写 200。Plus 年付的功能文案写 "每年 30,000 积分"，而年付 `credits` 字段与渲染出的页面都写 26,400（[计费套餐 API](https://ojo.art/subscribe)；读取于 2026-08-26）。
 - **对产品是什么有三套说法。** 服务条款（2026-03-16）描述的是 "an AI-powered visual design platform"，做 "Text-to-image and image-to-image generation … Brand kit generation and asset management"；帮助中心（2026-03-28）描述的是 "an AI-powered design and development platform"，产出可运行原型并同步到代码；首页与发布帖（2026 年 8 月）描述的则是面向产品策略、PRD 与原型的 "Design Agent Team Workspace"。服务条款列出的功能与当前产品文档中的界面并不对应。
+- **公司自身物料与媒体报道指向不同的公司归属地。** 公司注册在香港、地址在湾仔，GitHub 组织的位置也写 `Hong Kong`；而创始人被报道在深圳注册了一家 100% 持股的公司，`touchine.com` 又备案在北京（[服务条款](https://ojo.art/terms)、[GitHub API](https://api.github.com/orgs/touchine-ojo)、[每日经济新闻，2026-05-13](https://www.nbd.com.cn/articles/2026-05-13/4391026.html)、[touchine.com](https://touchine.com/)）。
 - **同时流通两个 Discord 邀请链接。** 网站链接 `discord.gg/Fw55pk7z3N`，X 简介链接 `discord.gg/GDtZg4Fs27`；两者指向同一服务器（邀请 API；读取于 2026-08-26）。
 
 ### 其他
@@ -202,6 +227,8 @@ AI 产出的所有权 "Upon generation and full payment of applicable Credits" �
 - **收款体系同时面向海外与中国用户。** 所有付费项目都同时列出 Stripe 与 Antom 作为收银渠道、银行卡与支付宝作为支付方式，价格以美元计，隐私政策则为中国大陆用户单独安排了数据基础设施（[计费套餐 API](https://ojo.art/subscribe)、[隐私政策](https://ojo.art/privacy-policy) §3.1）。
 - **一个仍在内测的产品配了相当大的博客 SEO 面。** 三个系列共 16 篇文章在六种语言下全量发布 —— 96 个本地化 URL —— 标题针对 "What Is an AI Design Agent?"、"Prompt to UI: How to Generate Product Interfaces with AI"、"AI Website Design Generator" 一类检索词（[博客索引](https://ojo.art/blog/posts/)；读取于 2026-08-26）。
 - **发布期的声量主要来自创作者账号。** 公司自己的帖子引用并转推了 `@jshguo`、`@PrajwalTomar_`、`@Shruti_0810`、`@yabhishekhd` 等第三方账号的内容（[@OJOaidesign](https://x.com/OJOaidesign)；读取于 2026-08-26）。
+- **发布前有同行账号公开为 OJO 背书。** 硅星人Pro 报道，在关于 OJO 的创业传闻出现在社交媒体后，Cutto（`cutto.ai`）的账号在多个帖子下留言替 OJO「辟谣」，称两家公司创始人是朋友，并补充说从剪映出来创业自然背负竞业协议，因此不可能做 AI 视频方向的项目（[硅星人Pro 经虎嗅发布，2026-08-12](https://www.huxiu.com/article/4882486.html)）。
+- **OJO 处在一波有据可查的剪映系创业潮中。** 同一篇盘点把 LibTV、Lovart、LibLib、Noisee、YouWare、Bloome、VidMuse、OiiOii、Pexo、Cutto、Renoise、Flova 与 OJO 并列，并称两年内至少有十位剪映系创业者创办了 AI 应用公司（[硅星人Pro 经虎嗅发布，2026-08-12](https://www.huxiu.com/article/4882486.html)）。
 - **同名公司会干扰检索。** "OJO" 同时是 OJO Labs 的名字 —— 一家奥斯汀的房地产 AI 公司，2018 年融资 2,050 万美元、2019 年融资 4,500 万美元；以 "OJO" 加融资、招聘或高管关键词检索，返回的多是那家公司而非本文对象（[PR Newswire，2018](https://www.prnewswire.com/news-releases/ojo-labs-raises-20-5-million-in-series-b-financing-to-propel-its-conversational-ai-ojo-to-millions-of-consumers-300650811.html)、[PR Newswire，2019](https://www.prnewswire.com/news-releases/ojo-labs-raises-45-million-in-series-c-funding-to-accelerate-product-development-and-fuel-expansion-300814706.html)）。
 
 ---
@@ -215,7 +242,8 @@ AI 产出的所有权 "Upon generation and full payment of applicable Credits" �
 - [定价](https://ojo.art/subscribe) · [博客（英文）](https://ojo.art/blog/posts/) · [博客（简体中文）](https://ojo.art/blog/zh-cn/posts/)
 - [robots.txt](https://ojo.art/robots.txt) · [sitemap 索引](https://ojo.art/sitemap.xml) · [页面 sitemap](https://ojo.art/pages-sitemap.xml)
 - 社交 —— [X @OJOaidesign](https://x.com/OJOaidesign) · [发布帖，2026-08-18](https://x.com/OJOaidesign/status/2089731834095489430) · [Discord](https://discord.gg/Fw55pk7z3N) · [Discord 邀请 API 记录](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true)
-- 开发物料 —— [npm `@touchine/ojo`](https://www.npmjs.com/package/@touchine/ojo) · [npm registry 记录](https://registry.npmjs.org/@touchine%2Fojo) · [VS Code 插件 `nexight.ojo`](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) · [GitHub 组织 `irise-studio`](https://github.com/irise-studio)
+- 创始人 —— [X @kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO) · [创始人的发布帖，2026-08-19](https://x.com/kiki_ZHANG_OJO/status/2089746515246133495)
+- 开发物料 —— [npm `@touchine/ojo`](https://www.npmjs.com/package/@touchine/ojo) · [npm registry 记录](https://registry.npmjs.org/@touchine%2Fojo) · [VS Code 插件 `nexight.ojo`](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) · [GitHub 组织 `irise-studio`](https://github.com/irise-studio) · [GitHub 组织 `touchine-ojo`](https://github.com/touchine-ojo) · [OJO-Design-Skills](https://github.com/touchine-ojo/OJO-Design-Skills) · [CODEOWNERS](https://github.com/touchine-ojo/OJO-Design-Skills/blob/main/.github/CODEOWNERS)
 - 相关域名 —— [touchine.ai](https://touchine.ai/)（跳转至 `ojo.art`）· [touchine.com](https://touchine.com/)（独立站点，北京 ICP 备案）
 
 **第三方**
@@ -223,6 +251,9 @@ AI 产出的所有权 "Upon generation and full payment of applicable Credits" �
 - [tempb.com —— Touchine AI (HK) Limited](https://www.tempb.com/companies/touchine-ai-hk-limited/)（香港公司名录聚合站）
 - [aiposthub.com —— OJO 是什麼？AI Design Agent Team 功能與限制](https://www.aiposthub.com/ojo-ai-design-agent-team-workspace/)（2026-08-19）
 - [versun.me —— 转发邀请码](https://versun.me/blog/tweet-2090310807007752333)（2026-08-20）
+- [硅星人Pro 经虎嗅发布 —— 剪映员工离职创业已出现「人传人」现象](https://www.huxiu.com/article/4882486.html)（2026-08-12）—— 指认 OJO 创始人的报道
+- [鲁中晨报 经网易发布 —— 字节跳动剪映产品负责人张琪智（KiKi）离职创业](https://www.163.com/dy/article/KSRD3PT40530JPVV.html)（2026-05-13）
+- [澎湃新闻 —— 剪映产品负责人张琪智被曝离职](https://m.thepaper.cn/newsDetail_forward_33177991) · [每日经济新闻](https://www.nbd.com.cn/articles/2026-05-13/4391026.html)（2026-05-13）· [DoNews](https://www.donews.com/news/detail/4/6547954.html)
 - [iTunes 搜索 API —— 美区商店无第一方应用](https://itunes.apple.com/search?term=ojo%20design%20agent&entity=software&country=us&limit=5)
 
 **同名但无关的公司（用于消歧）**

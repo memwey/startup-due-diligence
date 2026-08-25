@@ -12,7 +12,8 @@ OJO is an invite-only AI design product at `ojo.art` that generates product stra
 - The product was publicly introduced on X on 2026-08-18: "Today, we're introducing OJO: The first Design Agent Team Workspace." ([@OJOaidesign, 2026-08-18](https://x.com/OJOaidesign/status/2089731834095489430)). The homepage still reads "OJO is in private beta. Join the waitlist and we will enable access for you as soon as we can." ([ojo.art](https://ojo.art/); accessed 2026-08-26).
 - Four names appear across the company's own artifacts — **OJO** (brand), **Touchine** (legal entity and npm scope), **iRise** (static-asset path and GitHub org), and **Nexight** (VS Code Marketplace publisher) — see `Identity and names`.
 - Prices are published and live: Free ($0), Plus ($27/month or $300/year), Pro ($62/month or $684/year), plus four credit packs, charged through Stripe and Antom ([/api/commerce/v1/billing/plans](https://ojo.art/subscribe); read 2026-08-26) — see `Commercialization`.
-- No founder, team member, headcount, funding round or user total is published anywhere the search below reached — see `Notes`.
+- The founder is **Kiki ZHANG** (X `@kiki_ZHANG_OJO`, bio "ex Bytedancer, now Founder of @ojoaidesign"), whom OJO's own GitHub organization names as the company's X account. Chinese outlet 硅星人Pro reported on 2026-08-12 that this is **张琪智 (KiKi)**, the former product lead of ByteDance's 剪映 — see `Team`.
+- No funding round, headcount or user total is published anywhere the search below reached — see `Notes`.
 
 ---
 
@@ -36,7 +37,8 @@ OJO is an invite-only AI design product at `ojo.art` that generates product stra
 | Social and community | X `@OJOaidesign` — "Joined June 2026", 2,076 followers, 171 following. Discord server "OJO" — 303 members, 37 online. The invite on the website (`Fw55pk7z3N`) and the one in the X bio (`GDtZg4Fs27`) resolve to the same guild id `1503702135249047562`. | [X profile](https://x.com/OJOaidesign), [Discord invite API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true); observed 2026-08-26 |
 | Mobile apps | None found in the US App Store under the brand name | [iTunes search API](https://itunes.apple.com/search?term=ojo%20design%20agent&entity=software&country=us&limit=5); checked 2026-08-26 |
 | Internet Archive | No captures of `ojo.art` are indexed | [Wayback availability API](http://archive.org/wayback/available?url=ojo.art) and CDX index; checked 2026-08-26 |
-| Team, headcount, funding | Not published on the site, in the legal documents, or in any source the search below reached | see `Notes` |
+| Founder | "Kiki ZHANG" (X `@kiki_ZHANG_OJO`), self-described "ex Bytedancer, now Founder of @ojoaidesign"; reported by 硅星人Pro as 张琪智 (KiKi), former product lead of ByteDance's 剪映 | [GitHub org `touchine-ojo`](https://github.com/touchine-ojo), [@kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO), [硅星人Pro via 虎嗅, 2026-08-12](https://www.huxiu.com/article/4882486.html) |
+| Headcount, funding | Not published on the site, in the legal documents, or in any source the search below reached | see `Notes` |
 
 ### Identity and names
 
@@ -49,6 +51,7 @@ OJO is an invite-only AI design product at `ojo.art` that generates product stra
 | touchine.ai | Domain | Redirects to `ojo.art` | observed 2026-08-26 |
 | touchine.com | Domain | Serves an unrelated-looking page titled "Touchine Project Engineering - Boson Core", filed in China under "京ICP备2026017083号-1" and "京公网安备11010502060187号". No source connects this ICP filing to Touchine AI (HK) Limited — see `Notes`. | [touchine.com](https://touchine.com/); read 2026-08-26 |
 | iRise / irise-studio | Static assets and code hosting | The marketing site is served from `/_static/irise-official/`; the npm package's `repository` field points to `git+https://github.com/irise-studio/irise-extension.git`, directory `apps/cli` | [ojo.art](https://ojo.art/) asset paths, [npm registry](https://registry.npmjs.org/@touchine%2Fojo) |
+| touchine-ojo | GitHub organization | Display name "OJO TEAM", location "Hong Kong", blog `https://ojo.art`, email `support@touchine.ai`, X account `kiki_ZHANG_OJO`; created 2026-07-07; one public repository | [GitHub API](https://api.github.com/orgs/touchine-ojo); read 2026-08-26 |
 | Nexight | VS Code Marketplace publisher | Publisher `nexight` (display name "Nexight"), publisher domain `https://ojo.art` (not domain-verified), publishing the extension `ojo` | [VS Code Marketplace API](https://marketplace.visualstudio.com/items?itemName=nexight.ojo); read 2026-08-26 |
 | `zk` | Front-end storage keys | Browser storage uses a `zk`/`ZK` prefix (`zk-web-subscribe-billing-plans-cache-v1`, `__ZK_AUTH_STATE_SYNC__`, `zk_mixpanel_analytics_consent_v1`) and app i18n keys are namespaced `canvas.components.*` | localStorage read on `ojo.art` 2026-08-26 |
 
@@ -73,6 +76,7 @@ The Terms of Service describe it differently: "ojo.art is an AI-powered visual d
 | CLI | `npm install -g @touchine/ojo`. Commands: `ojo auth login` (modes `web`, `device`, `pat`), `ojo project list`, `ojo project open`, `ojo chat --message`, `ojo query --project-id`, `ojo workspace sync <id> [--path]`. Synced code lands in `<project-name>/ojo-prototype` with dependencies installed and the dev server started automatically. | [ojo.art](https://ojo.art/), [Help Center](https://ojo.art/help-center) §3.4–3.5 |
 | Editor extension | "Ojo platform integration for VS Code and Cursor: sign in, open projects, chat with sessions, sync local workspaces, and (in Cursor) register a session-scoped Ojo MCP server for agent tools." | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) |
 | Export | The homepage states "支持CLI、插件嵌入AI开发流，资产互通 / 设计即交付" (CLI and plugins embed into AI development flows; assets interoperate; design is delivery). Plan features distinguish "仅支持代码导出" (code export only) from "全格式导出" (all-format export). | [ojo.art/zh-CN](https://ojo.art/zh-CN/), [billing plans API](https://ojo.art/subscribe) |
+| Open-source skills | `touchine-ojo/OJO-Design-Skills` (MIT) — "Reusable UI/UX design skills for AI coding agents — Codex, Claude Code, ZCode, and more", installed by one script targeting Codex, Claude Code, ZCode, DeepCode, WorkBuddy, OpenCode or a generic agent directory | [GitHub](https://github.com/touchine-ojo/OJO-Design-Skills); read 2026-08-26 |
 | Blog | 16 posts in three series — "OJO PlayBook", "OJO Field Notes", "OJO Best Practices" — published across all six locales | [blog index](https://ojo.art/blog/posts/); read 2026-08-26 |
 
 ### Commercialization
@@ -99,6 +103,8 @@ No user, subscriber, revenue or generation total is published. The public signal
 | Discord | 303 members, 37 online; guild id `1503702135249047562`, which by Discord snowflake arithmetic corresponds to 2026-05-12 | [Discord invite API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true) |
 | VS Code extension | version 0.0.1, published 2026-03-20; 17 installs, 222 downloads | [VS Code Marketplace API](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) |
 | npm CLI | 5 versions (1.0.4–1.0.8); first published 2026-05-18, latest 1.0.8 on 2026-08-06 | [npm registry](https://registry.npmjs.org/@touchine%2Fojo) |
+| Founder's X account | `@kiki_ZHANG_OJO`, 221 followers, 172 following; "Joined June 2026" | [@kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO) |
+| Open-source repo | `OJO-Design-Skills`: 8 stars, 0 forks, 5 commits; first commit 2026-07-25, last push 2026-07-29 | [GitHub API](https://api.github.com/repos/touchine-ojo/OJO-Design-Skills) |
 
 ### Content rules as published
 
@@ -110,13 +116,29 @@ Ownership of AI Output transfers to the user "Upon generation and full payment o
 
 ## Team
 
-No founder, executive, employee or headcount is named on `ojo.art`, in the Terms, Privacy Policy or Help Center, on the X account, or in any source the search described in `Notes` reached. The only personal identifiers found in company artifacts are the npm maintainer account `rogerhorsley` (`rogerhorsleymorris@gmail.com`) on `@touchine/ojo` and `@touchine/contract-design-project` ([npm registry](https://registry.npmjs.org/@touchine%2Fojo); read 2026-08-26), and the Discord invite creator `waterplants888` / "Waterplants" ([Discord invite API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true); read 2026-08-26). Neither is presented anywhere as a company role.
+Nobody is named on `ojo.art` itself, in the Terms, Privacy Policy or Help Center. The founder is identified through the company's GitHub organization and X.
+
+| Fact | Detail | Source |
+|---|---|---|
+| Founder, as stated by the company | The GitHub organization `touchine-ojo`, display name "OJO TEAM", blog `https://ojo.art`, email `support@touchine.ai`, lists `kiki_ZHANG_OJO` as its X account | [GitHub API](https://api.github.com/orgs/touchine-ojo); read 2026-08-26 |
+| Founder, as stated by the person | X `@kiki_ZHANG_OJO`, display name "Kiki ZHANG", bio "ex Bytedancer, now Founder of @ojoaidesign", "Joined June 2026" | [@kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO); read 2026-08-26 |
+| Founder's launch post | "OJO is officially here.❤️ After leaving ByteDance and starting OJO, I kept asking myself: When AI makes building easier for everyone, what still makes a product worth shipping? My answer: taste." | [@kiki_ZHANG_OJO, 2026-08-19](https://x.com/kiki_ZHANG_OJO/status/2089746515246133495) |
+| Press identification | "4月，剪映产品负责人张琪智离职，开始AI Design方向创业。她的新产品OJO定位为设计场景里的Agent团队工作台，目前已经开始内测。" ("In April, 剪映 product lead 张琪智 left and started a venture in AI Design. Her new product OJO is positioned as an Agent team workspace for design scenarios and has entered closed beta.") The article's appendix lists "OJO（ojo.art）". | [硅星人Pro via 虎嗅, 2026-08-12](https://www.huxiu.com/article/4882486.html) |
+| Reported English name | Headline: "字节跳动剪映产品负责人张琪智（KiKi）离职创业，4月中旬已在深圳成立新公司" | [鲁中晨报 via 网易, 2026-05-13](https://www.163.com/dy/article/KSRD3PT40530JPVV.html) |
+| Repository code owners | `.github/CODEOWNERS` on `OJO-Design-Skills` reads `* @rogerhorsley @kikizhang0710-png`; the GitHub account `kikizhang0710-png` was created 2026-03-27 | [CODEOWNERS](https://github.com/touchine-ojo/OJO-Design-Skills/blob/main/.github/CODEOWNERS), [GitHub API](https://api.github.com/users/kikizhang0710-png); read 2026-08-26 |
+| Other identifiers in company artifacts | npm maintainer `rogerhorsley` (`rogerhorsleymorris@gmail.com`) on `@touchine/ojo` and `@touchine/contract-design-project`, whose commits are authored as "Sisma"; Discord invite creator `waterplants888` / "Waterplants". Neither is presented anywhere as a company role. | [npm registry](https://registry.npmjs.org/@touchine%2Fojo), [commit list](https://api.github.com/repos/touchine-ojo/OJO-Design-Skills/commits), [Discord invite API](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true) |
+
+**Career as reported for 张琪智** (Chinese press, May 2026, not confirmed by the company): born 1994; undergraduate at 西南大学新闻传媒学院, master's at 香港中文大学; joined 郭列's 脸萌 as a product manager after graduating in 2015; moved to ByteDance when it acquired 脸萌 for $300M in March 2018; appeared as 剪映工具产品负责人 at the December 2022 剪映创作大会; promoted to 剪映产品负责人 at the end of 2024; stepped down as manager, director and legal representative of 脸萌技术（深圳）有限公司 on 2026-03-26 and registered 深圳想象着陆科技有限公司 on 2026-04-17 as sole shareholder and legal representative, with RMB 1,000,000 registered capital ([澎湃新闻](https://m.thepaper.cn/newsDetail_forward_33177991), [每日经济新闻, 2026-05-13](https://www.nbd.com.cn/articles/2026-05-13/4391026.html), [DoNews](https://www.donews.com/news/detail/4/6547954.html)).
+
+No company-controlled source names 张琪智, connects OJO to 深圳想象着陆科技有限公司, or names any employee other than the founder.
 
 ---
 
 ## Funding
 
-No funding round, investor, valuation or amount is announced by the company or reported by any source the search reached. No Crunchbase, PitchBook or Tracxn profile for Touchine AI (HK) Limited or for OJO at `ojo.art` was found; searches for "OJO" plus funding terms return results for **OJO Labs**, an unrelated Austin, Texas real-estate company that raised a $45M Series C in 2019 ([PR Newswire, 2019](https://www.prnewswire.com/news-releases/ojo-labs-raises-45-million-in-series-c-funding-to-accelerate-product-development-and-fuel-expansion-300814706.html)) — see `Notes`.
+No funding round, investor, valuation or amount is announced by the company or reported by any source the search reached. The 硅星人Pro survey of 剪映 alumni startups that identifies OJO gives funding figures for several other companies in the same piece but none for OJO ([硅星人Pro via 虎嗅, 2026-08-12](https://www.huxiu.com/article/4882486.html)). The reported Shenzhen company registered by 张琪智, 深圳想象着陆科技有限公司, is described as wholly owned by that person with RMB 1,000,000 registered capital, which is a registration figure and not an investment ([每日经济新闻, 2026-05-13](https://www.nbd.com.cn/articles/2026-05-13/4391026.html)).
+
+No Crunchbase, PitchBook or Tracxn profile for Touchine AI (HK) Limited or for OJO at `ojo.art` was found; searches for "OJO" plus funding terms return results for **OJO Labs**, an unrelated Austin, Texas real-estate company that raised a $45M Series C in 2019 ([PR Newswire, 2019](https://www.prnewswire.com/news-releases/ojo-labs-raises-45-million-in-series-c-funding-to-accelerate-product-development-and-fuel-expansion-300814706.html)) — see `Notes`.
 
 ---
 
@@ -169,15 +191,17 @@ AI design and prototyping tools for product teams: turning natural-language brie
 
 ### Not publicly disclosed
 
-Search scope for the findings below (2026-08-26): `ojo.art` homepage and all six locale roots, `/terms`, `/privacy-policy`, `/help-center`, `/subscribe`, `/blog/posts/` and `/blog/zh-cn/posts/`, `robots.txt`, `sitemap.xml` and `pages-sitemap.xml`; probes of `/about`, `/careers`, `/pricing`, `/privacy`, `/legal/*`, `/docs`, `/login`, `/app`, `/changelog`, `/refund-policy`, `/workspace`, `/canvas`, `/explore`, `/invite`, `/waitlist`; the page's network requests, JavaScript bundles, build-time runtime config and browser storage; the billing plans API; WHOIS and DNS for `ojo.art`, `touchine.ai`, `touchine.com`, `ojo.dev` and `irise.art`; the Internet Archive CDX and availability APIs; the npm registry for the `@touchine` scope; the GitHub API for `irise-studio`; the VS Code Marketplace API; the Discord invite API; the X account and its launch thread; the US App Store; the tempb.com Hong Kong company directory; and English and Chinese searches on OJO, ojo.art, Touchine, Touchine AI (HK) Limited, iRise Studio and the ICP filing number.
+Search scope for the findings below (2026-08-26): `ojo.art` homepage and all six locale roots, `/terms`, `/privacy-policy`, `/help-center`, `/subscribe`, `/blog/posts/` and `/blog/zh-cn/posts/`, `robots.txt`, `sitemap.xml` and `pages-sitemap.xml`; probes of `/about`, `/careers`, `/pricing`, `/privacy`, `/legal/*`, `/docs`, `/login`, `/app`, `/changelog`, `/refund-policy`, `/workspace`, `/canvas`, `/explore`, `/invite`, `/waitlist`; the page's network requests, JavaScript bundles, build-time runtime config and browser storage; the billing plans API; WHOIS and DNS for `ojo.art`, `touchine.ai`, `touchine.com`, `ojo.dev` and `irise.art`; the Internet Archive CDX and availability APIs; the npm registry for the `@touchine` scope; the GitHub API for `irise-studio`; the VS Code Marketplace API; the Discord invite API; the X accounts `@OJOaidesign` and `@kiki_ZHANG_OJO` and their launch threads; the US App Store; the tempb.com Hong Kong company directory; and English and Chinese searches on OJO, ojo.art, Touchine, Touchine AI (HK) Limited, iRise Studio, Nexight, the ICP filing number, 张琪智 and 深圳想象着陆科技有限公司.
 
-- **Founders, executives and any named employee.** Nobody is named in any company-controlled source.
+- **Any employee other than the founder, and any executive team.** No company-controlled source names a second person in a role.
+- **A first-party statement of the founder's legal name or prior title.** The X bio says only "ex Bytedancer"; the identification as 张琪智, former 剪映 product lead, comes from Chinese press, not from the company.
 - **Headcount, office location and where the team actually works.** The Hong Kong address is a suite in Central Plaza given as a legal contact address; no other location is stated. Chinese-language filenames in the site's image assets (`花`, `前景`, `人`, `代码`, `元素`, `背景`, `海报`, `荧幕`, `人物`, `墨水`, `素材`) and the CN registrant countries on `touchine.ai` and `touchine.com` are the only location-adjacent signals found.
 - **Any funding round, investor or valuation.**
 - **Hong Kong registry particulars.** Directors, shareholders and the registered address on file were not retrieved; the incorporation date and BR number above come from a third-party aggregator, not from the Companies Registry itself, whose search is access-gated.
 - **Any user, subscriber, revenue, project or generation total.**
 - **Which models sit behind the tiers.** Plans reference "基础模型" (basic), "Flash + 有限高级模型" (Flash + limited advanced) and "SOTA / Master / 生图模型" (SOTA / Master / image-generation) without naming a single model or version. The Terms name Google Gemini and Anthropic Claude "including but not limited to".
 - **What credits cost per operation.** Only totals per plan are published; no per-generation credit price is listed.
+- **The relationship between OJO's disclosed operator and the founder's reported Chinese company.** Press reports 深圳想象着陆科技有限公司 (Shenzhen, registered 2026-04-17); the product's Terms name Touchine AI (HK) Limited (Hong Kong, reported incorporation 2026-04-28); `touchine.com` carries a Beijing ICP filing. No source connects the three.
 - **The relationship between Touchine AI (HK) Limited and the Beijing entity behind `touchine.com`.** The ICP filing "京ICP备2026017083号-1" was not resolved to a registrant name; MIIT lookup services were unreachable from this environment.
 - **Who "Nexight" is.** The VS Code publisher claims `https://ojo.art` as its domain but the domain is not verified by the Marketplace, and the name appears in no other company source.
 - **The GitHub repository.** `irise-studio/irise-extension`, referenced by the published npm package, is private.
@@ -192,6 +216,7 @@ Search scope for the findings below (2026-08-26): `ojo.art` homepage and all six
 - **Skill counts differ.** The homepage advertises "200 多种" (200+) Skills; the X account states "OJO currently offers more than 300 skills" ([ojo.art/zh-CN](https://ojo.art/zh-CN/), [@OJOaidesign](https://x.com/OJOaidesign); both read 2026-08-26).
 - **The pricing payload disagrees with its own display copy.** The Free plan's feature line reads "每日登录 100 积分" while the plan's `credits` field and the rendered page both say 200. The Plus annual feature line reads "每年 30,000 积分" while the annual `credits` field and the rendered page both say 26,400 ([billing plans API](https://ojo.art/subscribe); read 2026-08-26).
 - **Three descriptions of what the product is.** The Terms (Mar. 16, 2026) describe "an AI-powered visual design platform" doing "Text-to-image and image-to-image generation … Brand kit generation and asset management"; the Help Center (Mar 28, 2026) describes "an AI-powered design and development platform" that produces runnable prototypes and syncs to code; the homepage and launch post (Aug 2026) describe a "Design Agent Team Workspace" for product strategy, PRDs and prototypes. The Terms' feature list does not match the surfaces the current product documents.
+- **The company's own artifacts and the press describe different corporate homes.** The company is registered in Hong Kong with a Wan Chai address and a `Hong Kong` location on its GitHub organization, while the founder is reported to have registered a wholly owned company in Shenzhen and `touchine.com` is filed in Beijing ([Terms](https://ojo.art/terms), [GitHub API](https://api.github.com/orgs/touchine-ojo), [每日经济新闻, 2026-05-13](https://www.nbd.com.cn/articles/2026-05-13/4391026.html), [touchine.com](https://touchine.com/)).
 - **Two Discord invites in circulation.** The website links `discord.gg/Fw55pk7z3N` and the X bio links `discord.gg/GDtZg4Fs27`; both resolve to the same server (invite API; read 2026-08-26).
 
 ### Other
@@ -201,6 +226,8 @@ Search scope for the findings below (2026-08-26): `ojo.art` homepage and all six
 - **Billing is built for both a Western and a Chinese customer.** Every paid item lists Stripe and Antom as checkout providers and card plus Alipay as payment methods, prices are in USD, and the privacy policy provisions separate China-mainland data infrastructure ([billing plans API](https://ojo.art/subscribe), [Privacy Policy](https://ojo.art/privacy-policy) §3.1).
 - **The blog is a large SEO surface for a private-beta product.** 16 posts across three series are published in all six locales — 96 localized URLs — with titles targeting queries such as "What Is an AI Design Agent?", "Prompt to UI: How to Generate Product Interfaces with AI" and "AI Website Design Generator" ([blog index](https://ojo.art/blog/posts/); read 2026-08-26).
 - **Launch amplification came through creator accounts.** The company's own posts quote and boost third-party threads from accounts such as `@jshguo`, `@PrajwalTomar_`, `@Shruti_0810` and `@yabhishekhd` ([@OJOaidesign](https://x.com/OJOaidesign); read 2026-08-26).
+- **A competitor's account publicly vouched for OJO before launch.** 硅星人Pro reports that after startup rumours about OJO circulated on Chinese social media, the account of Cutto (`cutto.ai`) commented under multiple posts on OJO's behalf, saying the two companies' founders are friends and that a founder leaving 剪映 would carry non-compete obligations and therefore could not build an AI video product ([硅星人Pro via 虎嗅, 2026-08-12](https://www.huxiu.com/article/4882486.html)).
+- **OJO sits inside a documented wave of 剪映 alumni startups.** The same survey names LibTV, Lovart, LibLib, Noisee, YouWare, Bloome, VidMuse, OiiOii, Pexo, Cutto, Renoise and Flova alongside OJO, and reports at least ten AI application companies founded by 剪映 alumni over two years ([硅星人Pro via 虎嗅, 2026-08-12](https://www.huxiu.com/article/4882486.html)).
 - **A name collision matters for research.** "OJO" also names OJO Labs, an Austin real-estate AI company that raised $20.5M in 2018 and $45M in 2019; most search results for "OJO" plus funding, careers or leadership terms return that company, not this one ([PR Newswire, 2018](https://www.prnewswire.com/news-releases/ojo-labs-raises-20-5-million-in-series-b-financing-to-propel-its-conversational-ai-ojo-to-millions-of-consumers-300650811.html), [PR Newswire, 2019](https://www.prnewswire.com/news-releases/ojo-labs-raises-45-million-in-series-c-funding-to-accelerate-product-development-and-fuel-expansion-300814706.html)).
 
 ---
@@ -214,7 +241,8 @@ Search scope for the findings below (2026-08-26): `ojo.art` homepage and all six
 - [Pricing](https://ojo.art/subscribe) · [Blog (English)](https://ojo.art/blog/posts/) · [Blog (简体中文)](https://ojo.art/blog/zh-cn/posts/)
 - [robots.txt](https://ojo.art/robots.txt) · [sitemap index](https://ojo.art/sitemap.xml) · [pages sitemap](https://ojo.art/pages-sitemap.xml)
 - Social — [X @OJOaidesign](https://x.com/OJOaidesign) · [Launch post, 2026-08-18](https://x.com/OJOaidesign/status/2089731834095489430) · [Discord](https://discord.gg/Fw55pk7z3N) · [Discord invite API record](https://discord.com/api/v10/invites/Fw55pk7z3N?with_counts=true)
-- Developer artifacts — [npm `@touchine/ojo`](https://www.npmjs.com/package/@touchine/ojo) · [npm registry record](https://registry.npmjs.org/@touchine%2Fojo) · [VS Code extension `nexight.ojo`](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) · [GitHub org `irise-studio`](https://github.com/irise-studio)
+- Founder — [X @kiki_ZHANG_OJO](https://x.com/kiki_ZHANG_OJO) · [founder's launch post, 2026-08-19](https://x.com/kiki_ZHANG_OJO/status/2089746515246133495)
+- Developer artifacts — [npm `@touchine/ojo`](https://www.npmjs.com/package/@touchine/ojo) · [npm registry record](https://registry.npmjs.org/@touchine%2Fojo) · [VS Code extension `nexight.ojo`](https://marketplace.visualstudio.com/items?itemName=nexight.ojo) · [GitHub org `irise-studio`](https://github.com/irise-studio) · [GitHub org `touchine-ojo`](https://github.com/touchine-ojo) · [OJO-Design-Skills](https://github.com/touchine-ojo/OJO-Design-Skills) · [CODEOWNERS](https://github.com/touchine-ojo/OJO-Design-Skills/blob/main/.github/CODEOWNERS)
 - Related domains — [touchine.ai](https://touchine.ai/) (redirects to `ojo.art`) · [touchine.com](https://touchine.com/) (separate site, Beijing ICP filing)
 
 **Third-party**
@@ -222,6 +250,9 @@ Search scope for the findings below (2026-08-26): `ojo.art` homepage and all six
 - [tempb.com — Touchine AI (HK) Limited](https://www.tempb.com/companies/touchine-ai-hk-limited/) (Hong Kong company directory aggregator)
 - [aiposthub.com — OJO 是什麼？AI Design Agent Team 功能與限制](https://www.aiposthub.com/ojo-ai-design-agent-team-workspace/) (2026-08-19)
 - [versun.me — invite code repost](https://versun.me/blog/tweet-2090310807007752333) (2026-08-20)
+- [硅星人Pro via 虎嗅 — 剪映员工离职创业已出现「人传人」现象](https://www.huxiu.com/article/4882486.html) (2026-08-12) — the article that identifies OJO's founder
+- [鲁中晨报 via 网易 — 字节跳动剪映产品负责人张琪智（KiKi）离职创业](https://www.163.com/dy/article/KSRD3PT40530JPVV.html) (2026-05-13)
+- [澎湃新闻 — 剪映产品负责人张琪智被曝离职](https://m.thepaper.cn/newsDetail_forward_33177991) · [每日经济新闻](https://www.nbd.com.cn/articles/2026-05-13/4391026.html) (2026-05-13) · [DoNews](https://www.donews.com/news/detail/4/6547954.html)
 - [iTunes search API — no first-party app in the US storefront](https://itunes.apple.com/search?term=ojo%20design%20agent&entity=software&country=us&limit=5)
 
 **Unrelated company with the same name (for disambiguation)**
