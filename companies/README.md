@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-08-26.
+> Last updated: 2026-08-31.
 
 | Company | Area | Research |
 |---|---|---|
@@ -12,6 +12,7 @@
 | Eazo | Consumer AI app marketplace and agent infrastructure | [English](eazo/) · [简体中文](eazo/README.zh-CN.md) |
 | Evoto | AI photo editing and workflow software for photographers | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | Digital freight forwarding and customs | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
+| Heidi | AI medical scribe and clinical AI platform for clinicians | [English](heidi-health/) · [简体中文](heidi-health/README.zh-CN.md) |
 | Jerry | Car insurance brokerage and car-ownership app | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
 | KusArt | Consumer AI anime art and OC generator | [English](kusart/) · [简体中文](kusart/README.zh-CN.md) |
 | MachinePulse | Proactive AI agents — consumer, protocol, and media | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |

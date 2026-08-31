@@ -2,8 +2,8 @@
 
 [English](README.md) | **简体中文**
 
-> 最后更新：2026-08-26。
-> 本文与英文版同步至：2026-08-26。英文版为原始版本。
+> 最后更新：2026-08-31。
+> 本文与英文版同步至：2026-08-31。英文版为原始版本。
 
 | 公司 | 领域 | 调研 |
 |---|---|---|
@@ -13,6 +13,7 @@
 | Eazo | 消费级 AI 应用市场与 agent 基础设施 | [English](eazo/) · [简体中文](eazo/README.zh-CN.md) |
 | Evoto | 面向摄影师的 AI 修图与工作流软件 | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | 数字货运代理与报关 | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
+| Heidi | 面向临床医生的 AI 病历助手与临床 AI 平台 | [English](heidi-health/) · [简体中文](heidi-health/README.zh-CN.md) |
 | Jerry | 车险经纪与汽车持有应用 | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
 | KusArt | 消费级 AI 二次元绘画与 OC 生成器 | [English](kusart/) · [简体中文](kusart/README.zh-CN.md) |
 | MachinePulse | 主动式 AI 智能体 —— 消费端、协议与媒体制作 | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
