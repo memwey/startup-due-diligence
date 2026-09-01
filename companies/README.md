@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-08-31.
+> Last updated: 2026-09-01.
 
 | Company | Area | Research |
 |---|---|---|
@@ -10,6 +10,7 @@
 | Aippy | AI game creation and UGC community | [English](aippy/) · [简体中文](aippy/README.zh-CN.md) |
 | CrushOn AI | Adults-only AI character chat | [English](crushon/) · [简体中文](crushon/README.zh-CN.md) |
 | Eazo | Consumer AI app marketplace and agent infrastructure | [English](eazo/) · [简体中文](eazo/README.zh-CN.md) |
+| Even Realities | Display-first smart glasses and a smart ring, camera-free | [English](even-realities/) · [简体中文](even-realities/README.zh-CN.md) |
 | Evoto | AI photo editing and workflow software for photographers | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | Digital freight forwarding and customs | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
 | Heidi | AI medical scribe and clinical AI platform for clinicians | [English](heidi-health/) · [简体中文](heidi-health/README.zh-CN.md) |
