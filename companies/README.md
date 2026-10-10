@@ -2,30 +2,43 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-09-01.
+> Last updated: 2026-10-11.
 
 | Company | Area | Research |
 |---|---|---|
+| ACES | Enterprise AI transformation services and AI meeting-notes SaaS | [English](aces/) · [简体中文](aces/README.zh-CN.md) |
 | AIsa | Resource and payment gateway for AI agents | [English](aisa/) · [简体中文](aisa/README.zh-CN.md) |
 | Aippy | AI game creation and UGC community | [English](aippy/) · [简体中文](aippy/README.zh-CN.md) |
+| Anyflow | Embedded iPaaS (API integration platform) for SaaS vendors | [English](anyflow/) · [简体中文](anyflow/README.zh-CN.md) |
+| Booost | Sustainability ERP for disclosure and carbon accounting | [English](booost/) · [简体中文](booost/README.zh-CN.md) |
+| Couger | Virtual human AI assistants for retail store operations | [English](couger/) · [简体中文](couger/README.zh-CN.md) |
 | CrushOn AI | Adults-only AI character chat | [English](crushon/) · [简体中文](crushon/README.zh-CN.md) |
 | Eazo | Consumer AI app marketplace and agent infrastructure | [English](eazo/) · [简体中文](eazo/README.zh-CN.md) |
 | Even Realities | Display-first smart glasses and a smart ring, camera-free | [English](even-realities/) · [简体中文](even-realities/README.zh-CN.md) |
 | Evoto | AI photo editing and workflow software for photographers | [English](evoto/) · [简体中文](evoto/README.zh-CN.md) |
 | Flexport | Digital freight forwarding and customs | [English](flexport/) · [简体中文](flexport/README.zh-CN.md) |
+| Graffer | Gov-tech SaaS and enterprise generative AI | [English](graffer/) · [简体中文](graffer/README.zh-CN.md) |
 | Heidi | AI medical scribe and clinical AI platform for clinicians | [English](heidi-health/) · [简体中文](heidi-health/README.zh-CN.md) |
 | Jerry | Car insurance brokerage and car-ownership app | [English](jerry/) · [简体中文](jerry/README.zh-CN.md) |
+| Knowledge Work | Sales AI agents and sales-enablement SaaS | [English](knowledge-work/) · [简体中文](knowledge-work/README.zh-CN.md) |
 | KusArt | Consumer AI anime art and OC generator | [English](kusart/) · [简体中文](kusart/README.zh-CN.md) |
 | MachinePulse | Proactive AI agents — consumer, protocol, and media | [English](machinepulse/) · [简体中文](machinepulse/README.zh-CN.md) |
+| Medmain | Digital pathology cloud (PidPort) and pathology-image AI | [English](medmain/) · [简体中文](medmain/README.zh-CN.md) |
+| MFT Energy | Energy trading — power, gas and certificates | [English](mft-energy/) · [简体中文](mft-energy/README.zh-CN.md) |
+| MNTSQ | Enterprise contract lifecycle management (legal tech) | [English](mntsq/) · [简体中文](mntsq/README.zh-CN.md) |
 | Naive.ai | Stealth AI startup associated with Jifeng Dai | [English](naive-ai/) · [简体中文](naive-ai/README.zh-CN.md) |
+| Nature | Smart-home IoT devices and household energy management | [English](nature/) · [简体中文](nature/README.zh-CN.md) |
 | NETSTARS | Payments | [English](netstars/) · [简体中文](netstars/README.zh-CN.md) |
 | New Aim | E-commerce enablement, dropshipping and fulfilment | [English](newaim/) · [简体中文](newaim/README.zh-CN.md) |
+| NodeX | Zero-trust device identity and security for IoT and critical infrastructure | [English](nodex/) · [简体中文](nodex/README.zh-CN.md) |
 | Notta | AI transcription and meeting notes | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | OJO | AI design agent workspace for UI, landing pages, and prototypes | [English](ojo/) · [简体中文](ojo/README.zh-CN.md) |
+| Polimill | Generative AI for local governments and civic participation platform | [English](polimill/) · [简体中文](polimill/README.zh-CN.md) |
 | Shippio | Digital freight forwarding | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Spatius | Real-time AI avatar (digital human) SDK and infrastructure | [English](spatius/) · [简体中文](spatius/README.zh-CN.md) |
 | TapNow | Agentic creative canvas for visual production | [English](tapnow/) · [简体中文](tapnow/README.zh-CN.md) |
 | Tensor Energy | Renewable energy and battery operations | [English](tensor-energy/) · [简体中文](tensor-energy/README.zh-CN.md) |
+| Ubie | Consumer AI symptom checker, and AI intake and generative AI for hospitals and pharma | [English](ubie/) · [简体中文](ubie/README.zh-CN.md) |
 | Verdent | Agentic coding tools | [English](verdent/) · [简体中文](verdent/README.zh-CN.md) |
 | Vizzy Labs | Creator-marketing and UGC video platform | [English](vizzylabs/) · [简体中文](vizzylabs/README.zh-CN.md) |
 | Waka | Cross-border trade settlement infrastructure | [English](waka/) · [简体中文](waka/README.zh-CN.md) |
