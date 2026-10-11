@@ -2,7 +2,7 @@
 
 **English** | [简体中文](README.zh-CN.md)
 
-> Last updated: 2026-10-11.
+> Last updated: 2026-10-12.
 
 | Company | Area | Research |
 |---|---|---|
@@ -33,6 +33,7 @@
 | NodeX | Zero-trust device identity and security for IoT and critical infrastructure | [English](nodex/) · [简体中文](nodex/README.zh-CN.md) |
 | Notta | AI transcription and meeting notes | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | OJO | AI design agent workspace for UI, landing pages, and prototypes | [English](ojo/) · [简体中文](ojo/README.zh-CN.md) |
+| Plantcore AI | Industrial AI for factory operations and an open-source agent runtime | [English](plantcore/) · [简体中文](plantcore/README.zh-CN.md) |
 | Polimill | Generative AI for local governments and civic participation platform | [English](polimill/) · [简体中文](polimill/README.zh-CN.md) |
 | Shippio | Digital freight forwarding | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Spatius | Real-time AI avatar (digital human) SDK and infrastructure | [English](spatius/) · [简体中文](spatius/README.zh-CN.md) |

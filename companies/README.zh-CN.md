@@ -2,8 +2,8 @@
 
 [English](README.md) | **简体中文**
 
-> 最后更新：2026-10-11。
-> 本文与英文版同步至：2026-10-11。英文版为原始版本。
+> 最后更新：2026-10-12。
+> 本文与英文版同步至：2026-10-12。英文版为原始版本。
 
 | 公司 | 领域 | 调研 |
 |---|---|---|
@@ -34,6 +34,7 @@
 | NodeX | 面向物联网与关键基础设施的设备身份与零信任安全 | [English](nodex/) · [简体中文](nodex/README.zh-CN.md) |
 | Notta | AI 转写与会议记录 | [English](notta/) · [简体中文](notta/README.zh-CN.md) |
 | OJO | 面向 UI、落地页与原型的 AI 设计 agent 工作台 | [English](ojo/) · [简体中文](ojo/README.zh-CN.md) |
+| Plantcore AI | 面向工厂运营的工业 AI 与开源 agent 运行时 | [English](plantcore/) · [简体中文](plantcore/README.zh-CN.md) |
 | Polimill | 面向地方政府的生成式 AI 与公民参与平台 | [English](polimill/) · [简体中文](polimill/README.zh-CN.md) |
 | Shippio | 数字货运代理 | [English](shippio/) · [简体中文](shippio/README.zh-CN.md) |
 | Spatius | 实时 AI 数字人 SDK 与基础设施 | [English](spatius/) · [简体中文](spatius/README.zh-CN.md) |
